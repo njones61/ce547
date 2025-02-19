@@ -1,0 +1,123 @@
+site_name: BYU CE 547
+site_url: https://ce547.readthedocs.io/en/latest/
+site_description: Course materials for CE 547 at BYU
+site_author: Norm Jones (instructor) and TAs of CE 547 at BYU
+repo_url: https://github.com/cce547/
+favicon: 'images/favicon.ico'
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
+  - js/mathjax-config.js
+markdown_extensions:
+    - attr_list
+    - sane_lists
+    - md_in_html
+    - admonition
+    - pymdownx.arithmatex:
+        generic: true
+theme: readthedocs
+extra_css:
+  - css/custom.css
+nav:
+  - Home: index.md
+  - Class Resources:
+    - Syllabus: resources/syllabus.md
+    - Term Project: resources/termproject.md
+    - GMS Software: resources/gms.md
+    - Course Overview: resources/overview/intro_read.md
+  - Unit 1 - Groundwater Modeling Fundamentals:
+    - Groundwater Modeling Concepts:
+        - Pre-Class: unit1/01_head/head_read.md
+        - In-Class: unit1/01_head/head_class.md
+        - Homework: unit1/01_head/head_hw.md
+    - Hydraulic Head Concepts:
+        - Pre-Class: unit1/01_head/head_read.md
+        - In-Class: unit1/01_head/head_class.md
+        - Homework: unit1/01_head/head_hw.md
+    - Darcy's Law:
+        - Pre-Class: unit1/02_darcy/darcy_read.md
+        - In-Class: unit1/02_darcy/darcy_class.md
+        - Homework: unit1/02_darcy/darcy_hw.md
+    - Darcy's Law - Layered Systems:
+        - Pre-Class: unit1/03_darcy_layered/darcy_layered_read.md
+        - In-Class: unit1/03_darcy_layered/darcy_layered_class.md
+        - Homework: unit1/03_darcy_layered/darcy_layered_hw.md
+    - Governing Equations:
+        - Pre-Class (Darcy 2D): unit1/04_darcy_2d/darcy_2d_read.md
+        - Pre-Class (Gov Eqs): unit1/05_goveqs/goveqs_read.md
+        - In-Class: unit1/04_darcy_2d/darcy_2d_class.md
+    - Conceptual Models:
+        - Pre-Class: unit1/06_flownets/flow_read.md
+        - In-Class: unit1/06_flownets/flow_class.md
+        - Homework: unit1/06_flownets/flow_hw.md
+  - Unit 2 - MODFLOW Basic Concepts:
+    - MODFLOW Organization and Main Packages:
+        - Pre-Class: unit2/01_causes/causes_read.md
+    - MODFLOW Case Studies, Part 1:
+        - Pre-Class: unit2/02_shear/shear_read.md
+        - Homework: unit2/02_shear/shear_hw.md
+    - MODFLOW Optional Packages:
+        - Pre-Class: unit2/03_limiteq1/limiteq1_read.md
+        - In-Class: unit2/03_limiteq1/limiteq1_class.md
+        - Homework: unit2/03_limiteq1/limiteq1_hw.md
+    - MODFLOW Case Studies, Part 2:
+        - Pre-Class: unit2/04_limiteq2/limiteq2_read.md
+        - In-Class: unit2/04_limiteq2/limiteq2_class.md
+        - Homework: unit2/04_limiteq2/limiteq2_hw.md
+    - 2D Geostatistics:
+        - Pre-Class: unit2/05_charts/charts_read.md
+        - In-Class: unit2/05_charts/charts_class.md
+        - Homework: unit2/05_charts/charts_hw.md
+  - Unit 3 - MODFLOW Advanced Concepts:
+    - MODFLOW Solvers:
+        - Pre-Class: unit2/06_utexased/utexased_read.md
+        - In-Class 1: unit2/06_utexased/utexased_class1.md
+        - In-Class 2: unit2/06_utexased/utexased_class2.md
+        - Homework 1: unit2/06_utexased/utexased_hw1.md
+        - Homework 2: unit2/06_utexased/utexased_hw2.md
+    - Regional Models - Conceptual Model Approach:
+        - Pre-Class: unit2/07_reinforced/reinforced_read.md
+        - In-Class: unit2/07_reinforced/reinforced_class.md
+        - Homework: unit2/07_reinforced/reinforced_hw.md
+    - MODFLOW Case Studies, Part 3:
+        - Pre-Class: unit2/08_rapid/rapid_read.md
+        - Homework: unit2/08_rapid/rapid_hw.md
+    - MODFLOW Case Studies, Part 4:
+        - Pre-Class: unit2/09_seismic/seismic_read.md
+        - In-Class: unit2/09_seismic/seismic_class.md
+        - Homework: unit2/09_seismic/seismic_hw.md
+    - Model Calibration:
+        - Pre-Class: unit2/10_details/details_read.md
+        - In-Class: unit2/10_details/details_class.md
+        - Homework: unit2/10_details/details_hw.md
+    - Automated Parameter Estimation:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
+    - Pilot Point Method:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
+    - Automated Parameter Estimation:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
+    - MODPATH Particle Tracking:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
+    - Stochastic Modeling:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
+    - Transient MODFLOW Simulations:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
+    - Groundwater Sustainability Analysis:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
+    - Boundary Condition Analysis:
+        - Pre-Class: unit2/11_reliability/reliability_read.md
+        - In-Class: unit2/11_reliability/reliability_class.md
+        - Homework: unit2/11_reliability/reliability_hw.md
