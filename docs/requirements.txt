@@ -1,0 +1,3 @@
+python-markdown-math
+mkdocs-cinder
+pymdown-extensions

@@ -3,7 +3,6 @@ site_url: https://ce547.readthedocs.io/en/latest/
 site_description: Course materials for CE 547 at BYU
 site_author: Norm Jones (instructor) and TAs of CE 547 at BYU
 repo_url: https://github.com/cce547/
-favicon: 'images/favicon.ico'
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js
   - js/mathjax-config.js
@@ -24,7 +23,7 @@ nav:
     - Term Project: resources/termproject.md
     - GMS Software: resources/gms.md
     - Course Overview: resources/overview/intro_read.md
-  - Unit 1 - Groundwater Modeling Fundamentals:
+  - Unit 1 - Modeling Fundamentals:
     - Groundwater Modeling Concepts:
         - Pre-Class: unit1/01_head/head_read.md
         - In-Class: unit1/01_head/head_class.md
@@ -49,7 +48,7 @@ nav:
         - Pre-Class: unit1/06_flownets/flow_read.md
         - In-Class: unit1/06_flownets/flow_class.md
         - Homework: unit1/06_flownets/flow_hw.md
-  - Unit 2 - MODFLOW Basic Concepts:
+  - Unit 2 - MODFLOW Basics:
     - MODFLOW Organization and Main Packages:
         - Pre-Class: unit2/01_causes/causes_read.md
     - MODFLOW Case Studies, Part 1:
@@ -67,7 +66,7 @@ nav:
         - Pre-Class: unit2/05_charts/charts_read.md
         - In-Class: unit2/05_charts/charts_class.md
         - Homework: unit2/05_charts/charts_hw.md
-  - Unit 3 - MODFLOW Advanced Concepts:
+  - Unit 3 - MODFLOW Advanced:
     - MODFLOW Solvers:
         - Pre-Class: unit2/06_utexased/utexased_read.md
         - In-Class 1: unit2/06_utexased/utexased_class1.md
