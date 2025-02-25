@@ -17,7 +17,7 @@
 
 Welcome to the content repository for **CE 547 - Groundwater Modeling**. This repository contains the homework assignments and exercises associated with the class. The content is organized by unit and category and can be browsed using the navigation bar on the left. You can also access this content from the Schedule page on the BYU Learning Suite page for the class.  The schedule will contain links to the content for each unit and category. This content is maintained by the Prof. Jones and TAs and is subject to change. If you have any questions, comments, or suggestions, please contact Prof. Jones.
 
-![slope_image.png](images%2Fslope_image.png){width=900px}
+![srm.jpg](images/srm.jpg){width=900px}
 
 <div style="float:left;"><img src="images/byu-medallion.png" width="60" height="60" alt=""/></div>
 <div style="margin-left:75px;line-height:60px;">Brigham Young University - Dept. of Civil and Construction Engineering</div>
