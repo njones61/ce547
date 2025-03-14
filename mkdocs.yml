@@ -50,7 +50,7 @@ nav:
         - Homework: unit1/06_conceptual_models/conceptual_models_hw.md
   - Unit 2 - MODFLOW Basics:
     - MODFLOW Organization and Main Packages:
-        - Pre-Class: unit2/01_causes/causes_read.md
+        - Pre-Class: unit2/01_organization/organization_read.md
     - MODFLOW Case Studies, Part 1:
         - Pre-Class: unit2/02_shear/shear_read.md
         - Homework: unit2/02_shear/shear_hw.md

@@ -1,0 +1,2 @@
+# Pre-Class - Governing Equations
+
