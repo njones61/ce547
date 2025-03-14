@@ -25,9 +25,9 @@ nav:
     - Course Overview: resources/overview/intro_read.md
   - Unit 1 - Modeling Fundamentals:
     - Groundwater Modeling Concepts:
-        - Pre-Class: unit1/01_modeling/head_read.md
-        - In-Class: unit1/01_modeling/head_class.md
-        - Homework: unit1/01_modeling/head_hw.md
+        - Pre-Class: unit1/01_modeling/modeling_read.md
+        - In-Class: unit1/01_modeling/modeling_class.md
+        - Homework: unit1/01_modeling/modeling_hw.md
     - Hydraulic Head Concepts:
         - Pre-Class: unit1/02_head/head_read.md
         - In-Class: unit1/02_head/head_class.md
@@ -41,13 +41,13 @@ nav:
         - In-Class: unit1/04_darcy_layered/darcy_layered_class.md
         - Homework: unit1/04_darcy_layered/darcy_layered_hw.md
     - Governing Equations:
-        - Pre-Class (Darcy 2D): unit1/05_darcy_2d/darcy_2d_read.md
         - Pre-Class (Gov Eqs): unit1/05_goveqs/goveqs_read.md
-        - In-Class: unit1/04_darcy_2d/darcy_2d_class.md
+        - In-Class: unit1/05_goveqs/goveqs_class.md
+        - Homework: unit1/05_goveqs/goveqs_hw.md
     - Conceptual Models:
-        - Pre-Class: unit1/06_flownets/flow_read.md
-        - In-Class: unit1/06_flownets/flow_class.md
-        - Homework: unit1/06_flownets/flow_hw.md
+        - Pre-Class: unit1/06_conceptual_models/conceptual_models_read.md
+        - In-Class: unit1/06_conceptual_models/conceptual_models_class.md
+        - Homework: unit1/06_conceptual_models/conceptual_models_hw.md
   - Unit 2 - MODFLOW Basics:
     - MODFLOW Organization and Main Packages:
         - Pre-Class: unit2/01_causes/causes_read.md
