@@ -68,13 +68,13 @@ nav:
         - Homework: unit2/05_geostats/geostats_hw.md
   - Unit 3 - MODFLOW Advanced:
     - MODFLOW Solvers:
-        - Pre-Class: unit3/06_utexased/utexased_read.md
-        - In-Class 1: unit3/06_utexased/utexased_class1.md
-        - In-Class 2: unit3/06_utexased/utexased_class2.md
-        - Homework 1: unit3/06_utexased/utexased_hw1.md
-        - Homework 2: unit3/06_utexased/utexased_hw2.md
+        - Pre-Class: unit3/01_solver/utexased_read.md
+        - In-Class 1: unit3/01_solver/utexased_class1.md
+        - In-Class 2: unit3/01_solver/utexased_class2.md
+        - Homework 1: unit3/01_solver/utexased_hw1.md
+        - Homework 2: unit3/01_solver/utexased_hw2.md
     - Regional Models - Conceptual Model Approach:
-        - Pre-Class: unit3/07_reinforced/reinforced_read.md
+        - Pre-Class: unit3/02_regional_models/reinforced_read.md
         - In-Class: unit3/07_reinforced/reinforced_class.md
         - Homework: unit3/07_reinforced/reinforced_hw.md
     - MODFLOW Case Studies, Part 3:
