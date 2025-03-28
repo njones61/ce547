@@ -68,51 +68,51 @@ nav:
         - Homework: unit2/05_geostats/geostats_hw.md
   - Unit 3 - MODFLOW Advanced:
     - MODFLOW Solvers:
-        - Pre-Class: unit3/01_solver/utexased_read.md
-        - In-Class 1: unit3/01_solver/utexased_class1.md
-        - In-Class 2: unit3/01_solver/utexased_class2.md
-        - Homework 1: unit3/01_solver/utexased_hw1.md
-        - Homework 2: unit3/01_solver/utexased_hw2.md
+        - Pre-Class: unit3/01_solver/solver_read.md
+        - In-Class 1: unit3/01_solver/solver_class1.md
+        - In-Class 2: unit3/01_solver/solver_class2.md
+        - Homework 1: unit3/01_solver/solver_hw1.md
+        - Homework 2: unit3/01_solver/solver_hw2.md
     - Regional Models - Conceptual Model Approach:
-        - Pre-Class: unit3/02_regional_models/reinforced_read.md
-        - In-Class: unit3/07_reinforced/reinforced_class.md
-        - Homework: unit3/07_reinforced/reinforced_hw.md
+        - Pre-Class: unit3/02_regional_models/regional_models_read.md
+        - In-Class: unit3/02_regional_models/regional_models_class.md
+        - Homework: unit3/02_regional_models/regional_models_hw.md
     - MODFLOW Case Studies, Part 3:
-        - Pre-Class: unit3/08_rapid/rapid_read.md
-        - Homework: unit3/08_rapid/rapid_hw.md
+        - Pre-Class: unit3/03_study_pt3/study_pt3_read.md
+        - Homework: unit3/03_study_pt3/study_pt3_hw.md
     - MODFLOW Case Studies, Part 4:
-        - Pre-Class: unit3/09_seismic/seismic_read.md
-        - In-Class: unit3/09_seismic/seismic_class.md
-        - Homework: unit3/09_seismic/seismic_hw.md
+        - Pre-Class: unit3/04_study_pt4/study_pt4_read.md
+        - In-Class: unit3/04_study_pt4/study_pt4_class.md
+        - Homework: unit3/04_study_pt4/study_pt4_hw.md
     - Model Calibration:
-        - Pre-Class: unit3/10_details/details_read.md
-        - In-Class: unit3/10_details/details_class.md
-        - Homework: unit3/10_details/details_hw.md
+        - Pre-Class: unit3/05_calibration/calibration_read.md
+        - In-Class: unit3/05_calibration/calibration_class.md
+        - Homework: unit3/05_calibration/calibration_hw.md
     - Automated Parameter Estimation:
-        - Pre-Class: unit3/11_reliability/reliability_read.md
-        - In-Class: unit3/11_reliability/reliability_class.md
-        - Homework: unit3/11_reliability/reliability_hw.md
+        - Pre-Class: unit3/06_parameter/parameter_read.md
+        - In-Class: unit3/06_parameter/parameter_class.md
+        - Homework: unit3/06_parameter/parameter_hw.md
     - Pilot Point Method:
-        - Pre-Class: unit3/11_reliability/reliability_read.md
-        - In-Class: unit3/11_reliability/reliability_class.md
-        - Homework: unit3/11_reliability/reliability_hw.md
+        - Pre-Class: unit3/07_pilot/pilot_read.md
+        - In-Class: unit3/07_pilot/pilot_class.md
+        - Homework: unit3/07_pilot/pilot_hw.md
     - MODPATH Particle Tracking:
-        - Pre-Class: unit3/11_reliability/reliability_read.md
-        - In-Class: unit3/11_reliability/reliability_class.md
-        - Homework: unit3/11_reliability/reliability_hw.md
+        - Pre-Class: unit3/08_particle/particle_read.md
+        - In-Class: unit3/08_particle/particle_class.md
+        - Homework: unit3/08_particle/particle_hw.md
     - Stochastic Modeling:
-        - Pre-Class: unit3/11_reliability/reliability_read.md
-        - In-Class: unit3/11_reliability/reliability_class.md
-        - Homework: unit3/11_reliability/reliability_hw.md
+        - Pre-Class: unit3/09_stochastic/stochastic_read.md
+        - In-Class: unit3/09_stochastic/stochastic_class.md
+        - Homework: unit3/09_stochastic/stochastic_hw.md
     - Transient MODFLOW Simulations:
-        - Pre-Class: unit3/11_reliability/reliability_read.md
-        - In-Class: unit3/11_reliability/reliability_class.md
-        - Homework: unit3/11_reliability/reliability_hw.md
+        - Pre-Class: unit3/10_simulations/simulations_read.md
+        - In-Class: unit3/10_simulations/simulations_class.md
+        - Homework: unit3/10_simulations/simulations_hw.md
     - Groundwater Sustainability Analysis:
-        - Pre-Class: unit3/11_reliability/reliability_read.md
-        - In-Class: unit3/11_reliability/reliability_class.md
-        - Homework: unit3/11_reliability/reliability_hw.md
+        - Pre-Class: unit3/11_sustainability/sustainability_read.md
+        - In-Class: unit3/11_sustainability/sustainability_class.md
+        - Homework: unit3/11_sustainability/sustainability_hw.md
     - Boundary Condition Analysis:
-        - Pre-Class: unit3/11_reliability/reliability_read.md
-        - In-Class: unit3/11_reliability/reliability_class.md
-        - Homework: unit3/11_reliability/reliability_hw.md
+        - Pre-Class: unit3/12_boundary_condition/boundary_condition_read.md
+        - In-Class: unit3/12_boundary_condition/boundary_condition_class.md
+        - Homework: unit3/12_boundary_condition/boundary_condition_hw.md
