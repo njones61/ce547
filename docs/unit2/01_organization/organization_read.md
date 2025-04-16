@@ -4,7 +4,7 @@
 
 ## Video
 
-Slides (MODFLOW, Organization & Main Packages): [modflow-main_packages.pptx](modflow-main_packages.pptx)
+Slides (MODFLOW, Organization & Main Packages): [modflow-main_packages.pptx](modflow-main_packages.pptx) <br>
 Slides (MODFLOW, Optional Packages, pt 1): [modflow-opt_packages1.pptx](modflow-opt_packages1.pptx)
 
 <iframe width="900" height="700" src="https://www.youtube.com/embed/ouPJmd2_5jk?si=d1eLYC_DBhsWam-4" title="YouTube 
