@@ -6,7 +6,7 @@ Solve the following problems.
 
 1\. Complete tutorial
 >a\. Go to the Tutorials section of the Aquaveo GMS Learning Center:
->>http://www.aquaveo.com/software/gms-lear ning-tutorials <br>
+>>[http://www.aquaveo.com/software/gms-learning-tutorials](http://www.aquaveo.com/software/gms-learning-tutorials) <br>
 
 >b\. In the **General section**, click on the PDF link associated with **Grid Approach** tutorial. Note: You don't need to download the associated zip file in this case. <br>
 c\. Launch GMS and follow the steps in the tutorial to build a three-layer MODFLOW model in GMS. <br>
