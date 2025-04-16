@@ -4,9 +4,9 @@ Solve the following problems.
 
 1. You are building a MODFLOW model of a regional aquifer system. As with any modeling scenario, you must make some simplifying assumptions and you decide to use a single model layer to represent an aquifer that consists of three hydrogeologic units with similar, but different hydraulic conductivity values. Accordingly, you will need to assign a reprsentative vertical and horizontal hydraulic conductivity for each grid cell in the model layer where the values you assign account for the effect of the three subunits. The thicknesses of the three subunits varies by location, but at the point you currently analzying, the parameters are as follows (from top to bottom):
 
->Thompson formation: Thickness=30 ft, Kh=2 ft/d <br>
-Bower formation: Thickness=15 ft, Kh = 6.5 ft/d <br>
-Cascade formation: Thickess=60 ft, Kh = 1 ft/d
+>Thompson formation: Thickness = 30 ft, Kh = 2 ft/d <br>
+Bower formation: Thickness = 15 ft, Kh = 6.5 ft/d <br>
+Cascade formation: Thickess = 60 ft, Kh = 1 ft/d
 
 >Assume that Kh/Kv = ~5. Calculate the horizontal and vertical K values you would assign to the cells in this region of the model.
 

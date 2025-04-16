@@ -4,12 +4,12 @@ Note: You may work in pairs on this assignment.
 
 Solve the following problems. 
 
-1. Complete tutorial
->a. Go to the Tutorials section of the Aquaveo GMS Learning Center: <br>
+1\. Complete tutorial
+>a\. Go to the Tutorials section of the Aquaveo GMS Learning Center:
 >>http://www.aquaveo.com/software/gms-lear ning-tutorials <br>
 
->>b. In the General section, click on the PDF link associated with Grid Approach tutorial. Note: You don't need to download the associated zip file in this case. <br>
-c. Launch GMS and follow the steps in the tutorial to build a three-layer MODFLOW model in GMS. <br>
+>b\. In the **General section**, click on the PDF link associated with **Grid Approach** tutorial. Note: You don't need to download the associated zip file in this case. <br>
+c\. Launch GMS and follow the steps in the tutorial to build a three-layer MODFLOW model in GMS. <br>
 
 2. Model Analysis
 >Using the things you have learned from the tutorial exercise, perform the following model analysis. <br>
