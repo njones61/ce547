@@ -1,4 +1,6 @@
-# Travel Time Problem
+# Exercise - Darcy's Law
+
+# Part 1 - Travel Time Problem
 
 You have been hired as a consultant for 
 the Hanford DOE site in Washington state 
@@ -15,3 +17,9 @@ conductivity is 150 ft/day and the porosity
 is 0.3. What is your answer?
 
 ![columbia.gif](images/columbia.gif)
+
+# Part 2 - Darcy's Law Calculations
+
+Excel starter file: [darcy.xlsx](darcy.xlsx)
+
+Excel solution: [darcy (key).xlsx](darcy%20%28key%29.xlsx)
