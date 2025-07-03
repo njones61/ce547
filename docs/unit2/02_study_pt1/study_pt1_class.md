@@ -35,51 +35,51 @@ In this exercise, we will revisit the agricultural drain model we built for our 
 
 ![planview.gif](images/planview.gif)
 
-Click here to download a completed version of the previous model. Unzip the model and load it into GMS. Then do the following:
+Click [here](agdrains1.zip) to download a completed version of the previous model. Unzip the model and load it into GMS. Then do the following:
 
 1) Add a well in the interior.
 
-    a) Use Q = -2000 ft^3/day.
+&nbsp;&nbsp;&nbsp;&nbsp;a) Use Q = -2000 ft^3/day
 
-    b) Use Q = -5000 ft^3/day
+&nbsp;&nbsp;&nbsp;&nbsp;b) Use Q = -5000 ft^3/day
 
 2) Analyze the flow budget
 
-    a) Select the cells on each side and change the zone budget id's. Use 2 on the left and 3 on the right.
+&nbsp;&nbsp;&nbsp;&nbsp;a) Select the cells on each side and change the zone budget id's. Use 2 on the left and 3 on the right.
 
-    b) Look at the flow budget. What percentage of the water goes to the left drain vs. the right drain?
+&nbsp;&nbsp;&nbsp;&nbsp;b) Look at the flow budget. What percentage of the water goes to the left drain vs. the right drain?
 
-    c) Remove the well and re-run the model to get the original solution. Look at the flow budget again.
+&nbsp;&nbsp;&nbsp;&nbsp;c) Remove the well and re-run the model to get the original solution. Look at the flow budget again.
 
 3) Determine impact of using a 2D model
 
-    a) Set the head contours to a fixed interval (1.0) and save a copy of the contours to a CAD layer.
+&nbsp;&nbsp;&nbsp;&nbsp;a) Set the head contours to a fixed interval (1.0) and save a copy of the contours to a CAD layer.
 
-    b) Rebuild the model using a multi-layer grid (six layers). Assign head bc to top layer only and re-enter the inputs in the same order used in the first exercise. Let Kv=Kh for now.
+&nbsp;&nbsp;&nbsp;&nbsp;b) Rebuild the model using a multi-layer grid (six layers). Assign head bc to top layer only and re-enter the inputs in the same order used in the first exercise. Let Kv=Kh for now.
 
-    c) Compare the contours. Is there a significant difference?
+&nbsp;&nbsp;&nbsp;&nbsp;c) Compare the contours. Is there a significant difference?
 
-    d) Has the flow budget changed?
+&nbsp;&nbsp;&nbsp;&nbsp;d) Has the flow budget changed?
 
 4) Determine impact of vertical anisotropy
 
-    a) Save another copy of head contours.
+&nbsp;&nbsp;&nbsp;&nbsp;a) Save another copy of head contours.
 
-    b) Change Kv=Kh/5=0.8.
+&nbsp;&nbsp;&nbsp;&nbsp;b) Change Kv=Kh/5=0.8.
 
-    c) Save and run the model. Compare the solution.
+&nbsp;&nbsp;&nbsp;&nbsp;c) Save and run the model. Compare the solution.
 
 5) Determine impact of using drains vs. constant head bc for ag drains.
 
-    a) Save another copy of head contours. Note the flow budget.
+&nbsp;&nbsp;&nbsp;&nbsp;a) Save another copy of head contours. Note the flow budget.
 
-    b) Remove fixed head BC and add drains to left and right side. Use a large value for conductance (1e6).
+&nbsp;&nbsp;&nbsp;&nbsp;b) Remove fixed head BC and add drains to left and right side. Use a large value for conductance (1e6).
 
-    c) Save and run. Compare results.
+&nbsp;&nbsp;&nbsp;&nbsp;c) Save and run. Compare results.
 
-        Note: You may need to reduce the acceleration (relaxation) parameter to get the PCG solver to converge. Try reducing from 1.0 to 0.2 in the PCG Package dialog.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note: You may need to reduce the acceleration (relaxation) parameter to get the PCG solver to converge. Try reducing from 1.0 to 0.2 in the PCG Package dialog.
 
-    d) Compute a drain conductance value assuming K=0.5, L=50, width=6, thickness=3. Enter CD, save and run again. Compare results.
+&nbsp;&nbsp;&nbsp;&nbsp;d) Compute a drain conductance value assuming K=0.5, L=50, width=6, thickness=3. Enter CD, save and run again. Compare results.
 
  
 
