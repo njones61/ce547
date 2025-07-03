@@ -22,11 +22,11 @@ Build your MODFLOW model using the following basic steps:
 
 3) Initialize your MODFLOW simulation. 
 
-a) Select the appropriate units (length = m, and time = d).
+&nbsp;&nbsp;&nbsp;&nbsp;a) Select the appropriate units (length = m, and time = d).
 
-b) Select the packages you wish to use.
+&nbsp;&nbsp;&nbsp;&nbsp;b) Select the packages you wish to use.
 
-c) Enter a top elevation of 400 m and a bottom elevation of 250 m.  For simplicity, we will assume that the top and bottom of the aquifer are relatively flat.
+&nbsp;&nbsp;&nbsp;&nbsp;c) Enter a top elevation of 400 m and a bottom elevation of 250 m.  For simplicity, we will assume that the top and bottom of the aquifer are relatively flat.
 
 4) Create a constant head boundary on the right side of the model = 317 m.
 
@@ -38,9 +38,9 @@ c) Enter a top elevation of 400 m and a bottom elevation of 250 m.  For simplici
 
 8) Create two wells at the location shown.
 
-a) For well SR-3, enter a pumping rate of –300 m^3/d.
+&nbsp;&nbsp;&nbsp;&nbsp;a) For well SR-3, enter a pumping rate of –300 m^3/d.
 
-b) For well SR-4, enter a pumping rate of –450 m^3/d.
+&nbsp;&nbsp;&nbsp;&nbsp;b) For well SR-4, enter a pumping rate of –450 m^3/d.
 
 9) Check your model for errors and then save and run the simulation.
 
@@ -54,6 +54,47 @@ If your solution is successful, you may wish to try modifying your model as foll
 
 3) Change the hydraulic conductivity and the recharge and notice how sensitive the model is to these two parameters.
 
+
+# MODFLOW Case Study - Fremont River Model, Part 2
+
+For this case study, we will be revisiting the Fremont River model. We will add a lake and a flow barrier simulating a low permeability fault.
+
+1) Download and unzip the [start.zip](start.zip) file. Open the **fremont2.gpr** file in GMS.
+
+2) Apply general head conditions to the cells in the vicinity of the lake polygon.
+
+&nbsp;&nbsp;&nbsp;&nbsp;a) Select the cells using a polygon
+
+&nbsp;&nbsp;&nbsp;&nbsp;b) Create GHB cells.
+
+&nbsp;&nbsp;&nbsp;&nbsp;c) Compute and assign an appropriate conductance. Assume:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H = 360
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thickness of sediment = 2 m
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K of sediment = 0.2 m/d
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cell size = 40 m x 40 m
+
+3) Save and run
+
+4) Apply HFB conditions to simulate fault
+
+&nbsp;&nbsp;&nbsp;&nbsp;a) Select pairs of cells and toggle barrier (one pair at a time)
+
+&nbsp;&nbsp;&nbsp;&nbsp;b) HC = 0.00001
+
+5) Save and run
+
+Experiment with parameter values.
+ 
+
+ 
+
+ 
+
+ 
  
 
  
