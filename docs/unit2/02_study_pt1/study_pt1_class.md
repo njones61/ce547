@@ -1,6 +1,6 @@
 # MODFLOW Case Study - Agricultural Drains
 
-Drains are sometimes used in agricultual regions with high water tables. Drains are thought to create a healthier environment for plant growth and to dry the soil so that it can be accessed by farm equipment throughout the crop production cycle. Drainage can also reduce saline-alkiline problems.
+Drains are sometimes used in agricultural regions with high water tables. Drains are thought to create a healthier environment for plant growth and to dry the soil so that it can be accessed by farm equipment throughout the crop production cycle. Drainage can also reduce saline-alkiline problems.
 
 One type of agricultural drain is a simple trench as shown below. The drain acts as a fixed head boundary.
 
@@ -35,7 +35,7 @@ In this exercise, we will revisit the agricultural drain model we built for our 
 
 ![planview.gif](images/planview.gif)
 
-Click [here](agdrains1.zip) to download a completed version of the previous model. Unzip the model and load it into GMS. Then do the following:
+Click [<u>here</u>](agdrains1.zip) to download a completed version of the previous model. Unzip the model and load it into GMS. Then do the following:
 
 1) Add a well in the interior.
 

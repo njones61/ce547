@@ -4,7 +4,7 @@ In this exercise, we will revisit the agricultural drain model we built for our 
 
 ![planview.gif](planview.gif)
 
-Click [here](agdrains2.zip) to download a completed version of the previous model. Unzip the model and load it into GMS. Then do the following:
+Click [<u>here</u>](agdrains2.zip) to download a completed version of the previous model. Unzip the model and load it into GMS. Then do the following:
 
 1) Select some cells in the middle and add an irrigation pond using the GHB package. Let the elevation = 3830 and use a large value for conductance (2000 ft^2/day). Note: using a larger value of conductance such as 1e6 leads to a model that will converge but it has mass balance errors.
 

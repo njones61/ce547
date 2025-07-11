@@ -1,6 +1,6 @@
 # Automated Parameter Estimation - Pilot Point Method
 
-For this exercise we will run PEST again to solve the same problem from the [<u>previous in-class task</u>](parameter_class_shortcut.url). However, we will use a different method for parameterization. For this problem we will use the zonal approach for recharge, but we will use the pilot point interpolation method for hydraulic conductivity. Pilot points can be thought of as a 2D scatter point set. Instead of creating a zone and having the inverse model estimate one value for the entire zone, the value of the parameter within the zone is interpolated from the pilot points. Then the inverse model estimates the values at the pilot points. Figure 14-1 shows a set of pilot points used to estimate horizontal hydraulic conductivity. Notice how the hydraulic conductivity now varies from cell to cell. When the inverse model runs, the values at the pilot points are adjusted and the “surface” defining the variation of K values is warped until the objective function is minimized.
+For this exercise we will run PEST again to solve the same problem from the [<u>previous in-class task</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/06_parameter/parameter_class/). However, we will use a different method for parameterization. For this problem we will use the zonal approach for recharge, but we will use the pilot point interpolation method for hydraulic conductivity. Pilot points can be thought of as a 2D scatter point set. Instead of creating a zone and having the inverse model estimate one value for the entire zone, the value of the parameter within the zone is interpolated from the pilot points. Then the inverse model estimates the values at the pilot points. Figure 14-1 shows a set of pilot points used to estimate horizontal hydraulic conductivity. Notice how the hydraulic conductivity now varies from cell to cell. When the inverse model runs, the values at the pilot points are adjusted and the “surface” defining the variation of K values is warped until the objective function is minimized.
 
 ![pptcontours.gif](images/pptcontours.gif)
 
@@ -8,7 +8,7 @@ Do the following:
 
 1) Go to the Aquaveo tutorial website:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](learning-tutorials.htm)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
 
 2) Download and unzip the zip archive associated with the **Pilots Points** tutorial exercise.
 

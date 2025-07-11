@@ -8,7 +8,7 @@ For this case study, we will be solving the problem shown in the following figur
 
 Before building the model, first download and unzip the following file:
 
-[startfiles.zip](startfiles.zip)
+[<u>startfiles.zip</u>](startfiles.zip)
 
 Then launch GMS and read in the project file (map.gpr) using the **File|Open** command.
 
@@ -59,7 +59,7 @@ If your solution is successful, you may wish to try modifying your model as foll
 
 For this case study, we will be revisiting the Fremont River model. We will add a lake and a flow barrier simulating a low permeability fault.
 
-1) Download and unzip the [start.zip](start.zip) file. Open the **fremont2.gpr** file in GMS.
+1) Download and unzip the [<u>start.zip</u>](start.zip) file. Open the **fremont2.gpr** file in GMS.
 
 2) Apply general head conditions to the cells in the vicinity of the lake polygon.
 
