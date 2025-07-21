@@ -6,9 +6,7 @@ For this case study, we will be solving the problem shown in the following figur
 
 **Background Image**
 
-Before building the model, first download and unzip the following file:
-
-[<u>startfiles.zip</u>](startfiles.zip)
+Before building the model, first download and unzip the following file: [<u>startfiles.zip</u>](startfiles.zip)
 
 Then launch GMS and read in the project file (map.gpr) using the **File|Open** command.
 
@@ -22,11 +20,11 @@ Build your MODFLOW model using the following basic steps:
 
 3) Initialize your MODFLOW simulation. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Select the appropriate units (length = m, and time = d).
+>a) Select the appropriate units (length = m, and time = d).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Select the packages you wish to use.
+>b) Select the packages you wish to use.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Enter a top elevation of 400 m and a bottom elevation of 250 m.  For simplicity, we will assume that the top and bottom of the aquifer are relatively flat.
+>c) Enter a top elevation of 400 m and a bottom elevation of 250 m.  For simplicity, we will assume that the top and bottom of the aquifer are relatively flat.
 
 4) Create a constant head boundary on the right side of the model = 317 m.
 

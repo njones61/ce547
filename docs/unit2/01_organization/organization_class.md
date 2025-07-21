@@ -3,26 +3,20 @@
 
 Consider the following site:
 
-
-
-
+![mtn_range.png](images/mtn_range.png)
 
 Build a simple groundwater model representing this system. Input is from recharge. Parallel flow boundaries on the top and bottom.
 
-
 1. Build grid
 
-    a. X, length = 20000, 100 cells
-
-    b. Y, length = 15000, 75 cells
-
-    c. Z, length = 500, 1 cell
+>a. X, length = 20000, 100 cells<br>
+   b. Y, length = 15000, 75 cells<br>
+   c. Z, length = 500, 1 cell<br>
 
 2. Properties
 
-    a. Top = 3200, bottom = 2700
-
-    b. K = 2 ft/day
+    a. Top = 3200, bottom = 2700<br>
+    b. K = 2 ft/day<br>
 
 3. Recharge
 
@@ -37,6 +31,7 @@ Build a simple groundwater model representing this system. Input is from recharg
     b. Elevation = 3000
 
 5. Save and run model
+
 6. Add a well
 
     a. Permitted at 10 AFA (acre-ft/year)
