@@ -2,8 +2,6 @@
 
 This video introduces the concept of hydraulic head, which is a fundamental concept in groundwater flow.
 
-## Video
-
 Slides (Hydraulic Head Concepts): [head-concepts.pptx](head-concepts.pptx)
 
 <iframe width="900" height="700" src="https://www.youtube.com/embed/vK0epuRbSaA?si=WjyhlfCDZTlRfQP1" title="YouTube 

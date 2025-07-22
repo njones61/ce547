@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Model Calibration): [calibration-basics](calibration-basics.pptx) <br>
 Slides (Calibration Tools in GMS): [calibration-gms](calibration-gms.pptx)
 

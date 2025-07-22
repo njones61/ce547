@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Governing Equations - Transient): [goveqs-transient.pptx](goveqs-transient.pptx) <br>
 Slides (Governing Equations - Areal Flow - Transient): [goveqs-transient-areal.pptx](goveqs-transient-areal.pptx) <br>
 Slides (Transient MODFLOW Simulations): [modflow-transient.pptx](modflow-transient.pptx) <br>

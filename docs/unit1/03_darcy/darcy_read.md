@@ -2,8 +2,6 @@
 
 In this pre-class, we will introduce Darcy's Law...
 
-## Video
-
 Slides (Darcy's Law - Intro): [darcy-intro.pptx](darcy-intro.pptx)
 
 <iframe width="900" height="700" src="https://www.youtube.com/embed/KY8Yl4xRhbE?si=hxYfI7uW_yht4b12" title="YouTube 

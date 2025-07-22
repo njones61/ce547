@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (MODFLOW, Optional Packages, pt 2): [modflow-opt_packages2](modflow-opt_packages2.pptx)
 
 <iframe width="900" height="700" src="https://www.youtube.com/embed/mP-CsYpmo58?si=KjcpSPopyHCuMK2X" title="YouTube 

@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Groundwater Sustainability - Part 1): [sustainability-pt1.pptx](sustainability-pt1.pptx) <br>
 Slides (Groundwater Sustainability - Part 2): [sustainability-pt2.pptx](sustainability-pt2.pptx) <br>
 Article: [Sustainability of Groundwater Resources](1999%20-%20alley%2C%20reilly%2C%20franke%20%28sustainability%20of%20gw%20resources%29.pdf){:target="_blank"}

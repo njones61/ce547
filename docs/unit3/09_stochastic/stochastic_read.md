@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Stochastic Modeling - Basic Theory): [stochastic-basic_theory.pptx](stochastic-basic_theory.pptx)<br>
 Slides (Stochastic Modeling - GMS Tools): [stochastic-gms_tools.pptx](stochastic-gms_tools.pptx)
 

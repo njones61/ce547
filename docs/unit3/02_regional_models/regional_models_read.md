@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Regional Models - Conceptual Model Approach): [regional_models](regional_models.pptx)
 
 <iframe width="900" height="700" src="https://www.youtube.com/embed/MaRxrXMSSgs?si=L-9fio20cvjehxMR" title="YouTube 

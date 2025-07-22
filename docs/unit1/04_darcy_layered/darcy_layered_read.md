@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Darcy's Law - Layers): [darcy-layers.pptx](darcy-layers.pptx) <br>
 Slides (Darcy's Law - Multiple Dimentions): [darcy-multidim.pptx](darcy-multidim.pptx)
 

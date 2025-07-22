@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (MODFLOW, Organization & Main Packages): [modflow-main_packages.pptx](modflow-main_packages.pptx) <br>
 Slides (MODFLOW, Optional Packages, pt 1): [modflow-opt_packages1.pptx](modflow-opt_packages1.pptx)
 

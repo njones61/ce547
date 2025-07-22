@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Pilot Point Method): [pilot_point_method.pptx](pilot_point_method.pptx)
 
 <iframe width="900" height="700" src="https://www.youtube.com/embed/7MIEhmsHAPY?si=aCfXDUvPad7R1k4B" title="YouTube 

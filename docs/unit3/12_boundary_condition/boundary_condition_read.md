@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Boundary Condition Analysis - Part 1): [bc_analysis-pt1.pptx](bc_analysis-pt1.pptx) <br>
 Slides (Boundary Condition Analysis - Part 2): [bc_analysis-pt2.pptx](bc_analysis-pt2.pptx) <br>
 Slides (Boundary Condition Analysis - Part 3): [bc_analysis-pt3.pptx](bc_analysis-pt3.pptx) <br>

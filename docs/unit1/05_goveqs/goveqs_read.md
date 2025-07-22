@@ -2,8 +2,6 @@
 
 
 
-## Video
-
 Slides (Governing Eqs - General): [goveqs-general.pptx](goveqs-general.pptx)<br>
 Slides (Governing Eqs - Areal): [goveqs-areal.pptx](goveqs-areal.pptx)<br>
 
