@@ -49,7 +49,6 @@ nav:
         - Homework: unit2/01_organization/organization_hw.md
     - MODFLOW Case Studies, Part 1:
         - In-Class: unit2/02_study_pt1/study_pt1_class.md
-        - Homework: unit2/02_study_pt1/study_pt1_hw.md
     - MODFLOW Optional Packages:
         - Pre-Class: unit2/03_optional_packages/optional_packages_read.md
         - In-Class: unit2/03_optional_packages/optional_packages_class.md
