@@ -4,7 +4,6 @@ In this pre-class, we will introduce the concept of groundwater modeling and the
 
 ## Video
 
-Slides (course intro): [gwmod-intro.pptx](gwmod-intro.pptx)<br>
 Slides (gw modeling concepts): [gwmod-concepts.pptx](gwmod-concepts.pptx)
 
 <iframe width="900" height="700" src="https://www.youtube.com/embed/HISlo-Kqnao?si=Mgp20TZYsDlt3YK6" title="YouTube 

@@ -6,7 +6,7 @@ Consider the following soil profile:
 
 ![img.png](images/cap_rise.png)
 
-Using hydraulic head prinpciples, fill in the following table for each point in the soil profile. 
+Using hydraulic head principles, fill in the following table for each point in the soil profile. 
 
 | Point | Hel | Hp | Ht |
 |-------|:---:|:--:|:--:|
@@ -20,7 +20,7 @@ Consider the following flow net:
 
 ![img.png](images/flow_net.png){width="700px"}
 
-Calculate the elevatin head, pressure head, and total head at points A, B, and C.
+Calculate the elevation head, pressure head, and total head at points A, B, and C.
 
 For both part 1 and part 2, you can use the following Excel files to assist with your calculations.
 
