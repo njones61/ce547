@@ -64,10 +64,7 @@ nav:
   - Unit 3 - MODFLOW Advanced:
     - MODFLOW Solvers:
         - Pre-Class: unit3/01_solver/solver_read.md
-        - In-Class 1: unit3/01_solver/solver_class1.md
-        - In-Class 2: unit3/01_solver/solver_class2.md
-        - Homework 1: unit3/01_solver/solver_hw1.md
-        - Homework 2: unit3/01_solver/solver_hw2.md
+        - In-Class: unit3/01_solver/solver_class.md
     - Regional Models - Conceptual Model Approach:
         - Pre-Class: unit3/02_regional_models/regional_models_read.md
         - In-Class: unit3/02_regional_models/regional_models_class.md
