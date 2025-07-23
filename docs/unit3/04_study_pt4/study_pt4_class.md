@@ -6,7 +6,7 @@ To build the model, do the following:
 
 1) Go to the Aquaveo tutorial website:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
+>[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
 
 2) Download and unzip the zip archive associated with the **Conceptual Model Approach 3** tutorial exercise.
 
@@ -22,7 +22,7 @@ To build the model, do the following:
 
 1) Go to the Aquaveo tutorial website:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
+>[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
 
 2) Download and unzip the zip archive associated with the **Conceptual Model Approach 4** tutorial exercise.
 

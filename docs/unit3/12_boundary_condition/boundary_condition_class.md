@@ -6,17 +6,14 @@ Do the following:
 
 1) Download and unzip the following file. Open the project in GMS.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>bcanalysis.zip</u>](bcanalysis.zip)
+>[<u>bcanalysis.zip</u>](bcanalysis.zip)
 
 2) Look at the conceptual model.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Note the boundary conditions that have been applied on the two ends of the model.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Note the total model error for the current solution.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Note the flow budget values.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) Note the travel time for the particles/pathlines.
+>a) Note the boundary conditions that have been applied on the two ends of the model.<br>
+>b) Note the total model error for the current solution.<br>
+>c) Note the flow budget values.<br>
+>d) Note the travel time for the particles/pathlines.
 
 ## Model Uniqueness
 

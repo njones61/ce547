@@ -4,11 +4,11 @@ For this exercise we will create a MODFLOW model for the following site using th
 
 ![mapwithbcs.jpg](mapwithbcs.jpg)
 
-We will build this model using a set of 4 tutorials. In this exercise, we will complete part 1. We will build a model that incluces the river boundary conditions and recharge on a 1-layer grid. In the subsequent parts, we will add the wells, drains (creek beds), partitioned recharge, multiple layers, etc. In other words, we will start with the simplest version of the model and incementally add complexity.
+We will build this model using a set of 4 tutorials. In this exercise, we will complete part 1. We will build a model that includes the river boundary conditions and recharge on a 1-layer grid. In the subsequent parts, we will add the wells, drains (creek beds), partitioned recharge, multiple layers, etc. In other words, we will start with the simplest version of the model and incrementally add complexity.
 
 1) Go to the Aquaveo tutorial website:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
+>[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
 
 2) Download and unzip the zip archive associated with the **Conceptual Model Approach 1** tutorial exercise.
 
@@ -24,7 +24,7 @@ To build the model, do the following:
 
 1) Go to the Aquaveo tutorial website:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
+>[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
 
 2) Download and unzip the zip archive associated with the **Conceptual Model Approach 2** tutorial exercise.
 

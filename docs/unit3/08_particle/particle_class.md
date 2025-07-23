@@ -8,7 +8,7 @@ Do the following:
 
 1) Right-click here to download the solution to the big lake exercise we did earlier in the semester. Unzip the archive and open in GMS.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<u>Big Lake Solution Zip Archive</u>](solution.zip)
+>[<u>Big Lake Solution Zip Archive</u>](solution.zip)
 
 2) Go to the **Edit** menu and select the **Model interfaces** command. Turn on the **MODPATH** interface and click OK. (you shouldn't normally have to do this as the MODPATH interface is typically turned on by default).
 
