@@ -49,13 +49,13 @@ nav:
         - Homework: unit2/01_organization/organization_hw.md
     - MODFLOW Case Studies, Part 1:
         - In-Class: unit2/02_study_pt1/study_pt1_class.md
+        - Homework: unit2/02_study_pt1/study_pt1_hw.md
     - MODFLOW Optional Packages:
         - Pre-Class: unit2/03_optional_packages/optional_packages_read.md
         - In-Class: unit2/03_optional_packages/optional_packages_class.md
         - Homework: unit2/03_optional_packages/optional_packages_hw.md
     - MODFLOW Case Studies, Part 2:
         - In-Class: unit2/04_study_pt2/study_pt2_class.md
-        - Homework: unit2/04_study_pt2/study_pt2_hw.md
     - 2D Geostatistics:
         - Pre-Class: unit2/05_geostats/geostats_read.md
         - In-Class: unit2/05_geostats/geostats_class.md
@@ -70,7 +70,6 @@ nav:
         - Homework: unit3/02_regional_models/regional_models_hw.md
     - MODFLOW Case Studies, Part 3:
         - In-Class: unit3/03_study_pt3/study_pt3_class.md
-        - Homework: unit3/03_study_pt3/study_pt3_hw.md
     - MODFLOW Case Studies, Part 4:
         - In-Class: unit3/04_study_pt4/study_pt4_class.md
         - Homework: unit3/04_study_pt4/study_pt4_hw.md
