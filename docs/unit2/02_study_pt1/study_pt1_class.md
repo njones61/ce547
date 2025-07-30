@@ -28,6 +28,11 @@ The objective of this exercise is to build a MODFLOW model to simulate the lower
 
 9) View Solution
 
+Step-by-step instructions with screen shots: [<u>Agricultural Drains, Part 1.pptx</u>](Agricultural%20Drains%2C%20Part%201.pptx)
+
+GMS project file with final version of model: [<u>agdrains1.zip</u>](agdrains1.zip)
+
+Video: [<u>www.youtube.com/watch?v=xO4--6mdj4M</u>](https://www.youtube.com/watch?v=xO4--6mdj4M)
 
 # MODFLOW Case Study - Agricultural Drain Model, Part 2
 
@@ -65,7 +70,11 @@ Click [<u>here</u>](agdrains1.zip) to download a completed version of the previo
 
 >d) Compute a drain conductance value assuming K=0.5, L=50, width=6, thickness=3. Enter CD, save and run again. Compare results.
 
- 
+Step-by-step instructions with screen shots: [<u>Agricultural Drains, Part 2.pptx</u>](Agricultural%20Drains%2C%20Part%202.pptx)
+
+GMS project file with final version of model: [<u>agdrains2.zip</u>](agdrains2.zip)
+
+Video: [<u>www.youtube.com/watch?v=0RamLwB37kk</u>](https://www.youtube.com/watch?v=0RamLwB37kk)
 
  
  

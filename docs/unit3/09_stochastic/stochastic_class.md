@@ -58,7 +58,11 @@ Do the following:
 
 **Note:** If you get an error message when running the gaussian simulator, it could be a permissions problem when running the gaussian simulator on CAEDM. It tries to write a temp scratch file and it can't. To solve the problem, copy the FIELDGEN.EXE file to a local drive and change the path to the file using the Edit|Preferences dialog. You can see the current location of FIELDGEN.EXE using the Edit|Preferences dialog.
 
- 
+## Solution
 
- 
+Use the following link to download a copy of a GMS project containing the completed model for this tutorial exercise.
+
+>[<u>stoch-key.zip</u>](stoch-key.zip)
+
+Video: [<u>www.youtube.com/watch?v=FVdDTt8IB9I</u>](https://www.youtube.com/watch?v=FVdDTt8IB9I)
  

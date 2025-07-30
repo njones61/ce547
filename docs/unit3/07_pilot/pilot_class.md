@@ -22,4 +22,16 @@ Do the following:
 
 _** Note: due to a bug in GMS, you cannot simply create a second scatter point set and point the HK parameter to the new set in the Parameters dialog. GMS gets stuck and cannot link to the new set. So you have to reset GMS, go back to the original start.gpr project file, create a new data set, create the points, etc._
 
+## Solution
+
+Use the following link to download a copy of a GMS project containing the completed model for this tutorial exercise. This is a solution to the tutorial problem as written, using a regular grid.
+
+>[<u>pilotpoints-key1-uniform.zip</u>](pilotpoints-key1-uniform.zip)
+
+Use this next link to download a solution to the problem using selectively placed scatter points.
+
+>[<u>pilotpoints-key2-scatter.zip</u>](pilotpoints-key2-scatter.zip)
+
+Video: [<u>www.youtube.com/watch?v=dQxK-56fD4g</u>](https://www.youtube.com/watch?v=dQxK-56fD4g)
+
  

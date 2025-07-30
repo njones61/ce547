@@ -44,7 +44,11 @@ Do the following:
 
 18) Play with the travel time value to figure out how long it takes for the first particle from the lake to reach one of the wells.
 
- 
+## Solution
 
- 
+The zip archive associated with the tutorial includes a sample solution to the exercise.
+
+Video: [<u>www.youtube.com/watch?v=Nc1Hwp2N3tI</u>](https://www.youtube.com/watch?v=Nc1Hwp2N3tI)
+
+
  

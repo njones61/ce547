@@ -18,6 +18,10 @@ is 0.3. What is your answer?
 
 ![columbia.gif](images/columbia.gif)
 
+Solution file (html): [columbia (key-html)](https://ce547.groups.et.byu.net/syllabus/exercises/02.%20darcy/columbia%20(key).htm)
+
+Solution file (ppt): [columbia (key).pptx](columbia%20%28key%29.pptx)
+
 # Part 2 - Darcy's Law Calculations
 
 Excel starter file: [darcy.xlsx](darcy.xlsx)

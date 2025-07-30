@@ -16,6 +16,12 @@ We will build this model using a set of 4 tutorials. In this exercise, we will c
 
 4) Follow the instructions to complete the tutorial.
 
+## East Texas Tutorial - KEY
+
+The zip archive associated with the tutorial includes a sample solution to the exercise.
+
+Video: [<u>www.youtube.com/watch?v=5-0uH1K_9po</u>](https://www.youtube.com/watch?v=5-0uH1K_9po)
+
 # MODFLOW Conceptual Model Approach, Part 2 - East Texas
 
 For this exercise we will complete part 2 of the conceptual model approach tutorial. In Part 1, we built a one-layer model using the conceptual model approach. The model includes general head boundary conditions for two rivers at the south and east ends of the model and we used a constant value for K and the top and bottom elevations. In this exercise, we will add recharge, two wells, and a set of drains to model the three creek beds.
@@ -32,7 +38,11 @@ To build the model, do the following:
 
 4) Follow the instructions to complete the tutorial.
 
- 
+## East Texas Tutorial, Part 2 - KEY
+
+The zip archive associated with the tutorial includes a sample solution to the exercise.
+
+Video: [<u>www.youtube.com/watch?v=eF3bz0zYQsI</u>](https://www.youtube.com/watch?v=eF3bz0zYQsI)
 
  
 

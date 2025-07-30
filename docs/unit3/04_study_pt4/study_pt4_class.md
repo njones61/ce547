@@ -14,6 +14,12 @@ To build the model, do the following:
 
 4) Follow the instructions to complete the tutorial.
 
+## East Texas Tutorial, Part 3 - KEY
+
+The zip archive associated with the tutorial includes a sample solution to the exercise.
+
+Video: [<u>www.youtube.com/watch?v=9nywgomkUMQ</u>](https://www.youtube.com/watch?v=9nywgomkUMQ)
+
 # MODFLOW Conceptual Model Approach, Part 4 - East Texas
 
 For this exercise we will complete part 4 of the conceptual model approach tutorial. We will define vertical anisotropy for the K values in layers 1 & 2, we will add a new recharge polygon for the landfill by importing a shapefile, we will assign drain elevations using a raster, and we will use the MNW2 package for a more sophisticated approach to partitioning the well flow between multiple layers.
@@ -29,3 +35,9 @@ To build the model, do the following:
 3) Download and open the PDF file associated with the **Conceptual Model Approach 4** tutorial exercise.
 
 4) Follow the instructions to complete the tutorial.
+
+## East Texas Tutorial, Part 4 - KEY
+
+The zip archive associated with the tutorial includes a sample solution to the exercise.
+
+Video: [<u>www.youtube.com/watch?v=d5va3s6RNI0</u>](https://www.youtube.com/watch?v=d5va3s6RNI0)

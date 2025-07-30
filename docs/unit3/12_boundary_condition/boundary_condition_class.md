@@ -45,6 +45,12 @@ Do the following:
 
 14) Now look at the heads, observation wells, and model error. What has changed?
 
- 
+## Solution
+
+GMS project file with solution: [<u>bcanalysis-key.zip</u>](bcanalysis-key.zip)
+
+Step-by-step instructions: [<u>bcanalysis-script.pptx</u>](bcanalysis-script.pptx)
+
+Video: [<u>www.youtube.com/watch?v=yLbIhwaMQgg</u>](https://www.youtube.com/watch?v=yLbIhwaMQgg)
 
  

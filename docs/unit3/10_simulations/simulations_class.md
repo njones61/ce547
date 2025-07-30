@@ -17,3 +17,9 @@ Do the following:
 >[<u>transient data.xlsx</u>](transient%20data.xlsx)
 
 5) Follow the instructions to complete the tutorial.
+
+## Solution
+
+The zip archive associated with the tutorial includes a sample solution to the exercise.
+
+Video: [<u>www.youtube.com/watch?v=6IwFep6xvMs</u>](https://www.youtube.com/watch?v=6IwFep6xvMs)

@@ -90,7 +90,13 @@ To build the model, do the following:
 
 19) Save and run the model
 
- 
+## Big Lake - KEY
+
+GMS project file with solution: [<u>solution.zip</u>](solution.zip)
+
+Step-by-step instructions: [<u>biglake script.pptx</u>](biglake%20script.pptx)
+
+Video: [<u>www.youtube.com/watch?v=WuyRpQ4yHDE</u>](https://www.youtube.com/watch?v=WuyRpQ4yHDE)
 
  
 

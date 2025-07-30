@@ -22,6 +22,14 @@ This exercise involves a variation of the [<u>Fremont River</u>](https://byu-ce5
 
 _*For the PCG2 solver, the acceleration parameter is called the damping parameter._
 
+## Solver Problems, Thin Aquifer- KEY
+
+GMS project file with solution: [<u>thinaq (key).zip</u>](thinaq%20%28key%29.zip)
+
+Step-by-step instructions: [<u>solvers-thinaquifer.pptx</u>](solvers-thinaquifer.pptx)
+
+Video: [<u>www.youtube.com/watch?v=kmq7z1v4bG0</u>](https://www.youtube.com/watch?v=kmq7z1v4bG0)
+
 # MODFLOW Case Study, Part 2 - Dealing with Dry Cells
 
 This exercise involves a variation of the [<u>Fremont River</u>](https://byu-ce547.readthedocs.io/en/latest/unit2/03_optional_packages/optional_packages_class/) model. The model is the same as before, except that the bottom elevations have been changed from 250 m to 280 m.
@@ -53,3 +61,10 @@ This exercise involves a variation of the [<u>Fremont River</u>](https://byu-ce5
 
 _*For the PCG2 solver, the acceleration parameter is called the damping parameter._
 
+## Solver Problems, Dry Cells - KEY
+
+GMS project file with solution: [<u>drywells (key).zip</u>](drywells%20%28key%29.zip)
+
+Step-by-step instructions: [<u>solvers-drywells.pptx</u>](solvers-drywells.pptx)
+
+Video: [<u>www.youtube.com/watch?v=-NTmTf2EV2g</u>](https://www.youtube.com/watch?v=-NTmTf2EV2g)

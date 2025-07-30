@@ -13,3 +13,9 @@ Do the following:
 3) Download and open the PDF file associated with the **Automated Parameter Estimation** tutorial exercise.
 
 4) Follow the instructions to complete the tutorial.
+
+## Solution
+
+The zip archive associated with the tutorial includes a sample solution to the exercise.
+
+Video: [<u>www.youtube.com/watch?v=PezalyvSSY4</u>](https://www.youtube.com/watch?v=PezalyvSSY4)

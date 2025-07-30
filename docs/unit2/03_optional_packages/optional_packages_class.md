@@ -47,6 +47,11 @@ If your solution is successful, you may wish to try modifying your model as foll
 
 3) Change the hydraulic conductivity and the recharge and notice how sensitive the model is to these two parameters.
 
+Step-by-step instructions with screen shots: [<u>fremont river, part 1.pptx</u>](fremont%20river%2C%20part%201.pptx)
+
+GMS project file with final version of model: [<u>fremont1.zip</u>](fremont1.zip)
+
+Video: [<u>www.youtube.com/watch?v=1AaLIQfzQ6U</u>](https://www.youtube.com/watch?v=1AaLIQfzQ6U)
 
 # MODFLOW Case Study - Fremont River Model, Part 2
 
@@ -73,6 +78,11 @@ For this case study, we will be revisiting the Fremont River model. We will add 
 
 Experiment with parameter values.
  
+Step-by-step instructions with screen shots: [<u>fremont river, part 2.pptx</u>](fremont%20river%2C%20part%202.pptx)
+
+GMS project file with final version of model: [<u>fremont2.zip</u>](fremont2.zip)
+
+Video: [<u>www.youtube.com/watch?v=OwDWJ-IAb5Q</u>](https://www.youtube.com/watch?v=OwDWJ-IAb5Q)
 
  
 

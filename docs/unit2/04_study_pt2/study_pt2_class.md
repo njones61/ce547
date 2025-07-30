@@ -12,4 +12,8 @@ Click [<u>here</u>](agdrains2.zip) to download a completed version of the previo
 
 3) Compute a conductance assuming pond is lined with a K=0.01 ft/day material with thickness= 1 ft. Save and run. What is the impact on heads and flow budget?
 
- 
+Step-by-step instructions with screen shots: [<u>Agricultural Drains, Part 3.pptx</u>](Agricultural%20Drains%2C%20Part%203.pptx)
+
+GMS project file with final version of model: [<u>agdrains3.zip</u>](agdrains3.zip)
+
+Video: [<u>www.youtube.com/watch?v=EFG0KVHS2q8</u>](https://www.youtube.com/watch?v=EFG0KVHS2q8)
