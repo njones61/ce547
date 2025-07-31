@@ -90,7 +90,7 @@ To build the model, do the following:
 
 19) Save and run the model
 
-## Big Lake - KEY
+## Solution
 
 GMS project file with solution: [<u>solution.zip</u>](solution.zip)
 

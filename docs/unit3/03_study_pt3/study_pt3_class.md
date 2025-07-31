@@ -16,7 +16,7 @@ We will build this model using a set of 4 tutorials. In this exercise, we will c
 
 4) Follow the instructions to complete the tutorial.
 
-## East Texas Tutorial - KEY
+## Solution
 
 The zip archive associated with the tutorial includes a sample solution to the exercise.
 
@@ -38,7 +38,7 @@ To build the model, do the following:
 
 4) Follow the instructions to complete the tutorial.
 
-## East Texas Tutorial, Part 2 - KEY
+## Solution
 
 The zip archive associated with the tutorial includes a sample solution to the exercise.
 

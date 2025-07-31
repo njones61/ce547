@@ -10,6 +10,8 @@ The objective of this exercise is to analyze the performance of various 2D inter
 
 4) Complete the tutorial.
 
+## Solution
+
 Solution file: [<u>geos2d (key).gpr</u>](geos2d%20%28key%29.gpr)
 
 Video: [<u>www.youtube.com/watch?v=ZHE9DDaKkRk</u>](https://www.youtube.com/watch?v=ZHE9DDaKkRk)
@@ -25,6 +27,8 @@ In this exercise we will review how to interpolate 2D scatter point data directl
 3) Download the PDF file associated with the **Interpolating Layer Data** tutorial.
 
 4) Complete the tutorial.
+
+## Solution
  
 Solution file: [<u>layerdata (key).zip</u>](layerdata%20%28key%29.zip)
  

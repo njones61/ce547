@@ -24,7 +24,7 @@ Do the following:
 
 4) Follow the instructions to complete the tutorial.
 
-## Calibration Tutorial - KEY
+## Solution
 
 The zip archive associated with the tutorial includes a sample solution to the exercise.
 

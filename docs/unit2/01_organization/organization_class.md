@@ -1,6 +1,5 @@
 # Mountain-Lake Model
 
-
 Consider the following site:
 
 ![mtn_range.png](images/mtn_range.png)
@@ -33,6 +32,8 @@ Build a simple groundwater model representing this system. Input is from recharg
 >c. More wells<br>
 >d. K value<br>
 >e. Recharge
+
+## Solution
 
 Solution file: [<u>docs.google.com/document</u>](https://docs.google.com/document/d/e/2PACX-1vRA8iCUnl_Z3I2wzm_OOOlONZyt2bDE98Lz6NERBA4mujVzegV6p_LuCyLeKcVagf7oNMXIdeawPJzh/pub)
 

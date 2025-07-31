@@ -14,7 +14,7 @@ To build the model, do the following:
 
 4) Follow the instructions to complete the tutorial.
 
-## East Texas Tutorial, Part 3 - KEY
+## Solution
 
 The zip archive associated with the tutorial includes a sample solution to the exercise.
 
@@ -36,7 +36,7 @@ To build the model, do the following:
 
 4) Follow the instructions to complete the tutorial.
 
-## East Texas Tutorial, Part 4 - KEY
+## Solution
 
 The zip archive associated with the tutorial includes a sample solution to the exercise.
 

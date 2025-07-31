@@ -61,7 +61,7 @@ This exercise involves a variation of the [<u>Fremont River</u>](https://byu-ce5
 
 _*For the PCG2 solver, the acceleration parameter is called the damping parameter._
 
-## Solver Problems, Dry Cells - KEY
+## Solution
 
 GMS project file with solution: [<u>drywells (key).zip</u>](drywells%20%28key%29.zip)
 

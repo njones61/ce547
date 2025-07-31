@@ -28,6 +28,8 @@ The objective of this exercise is to build a MODFLOW model to simulate the lower
 
 9) View Solution
 
+## Solution
+
 Step-by-step instructions with screen shots: [<u>Agricultural Drains, Part 1.pptx</u>](Agricultural%20Drains%2C%20Part%201.pptx)
 
 GMS project file with final version of model: [<u>agdrains1.zip</u>](agdrains1.zip)
@@ -69,6 +71,8 @@ Click [<u>here</u>](agdrains1.zip) to download a completed version of the previo
 >>Note: You may need to reduce the acceleration (relaxation) parameter to get the PCG solver to converge. Try reducing from 1.0 to 0.2 in the PCG Package dialog.
 
 >d) Compute a drain conductance value assuming K=0.5, L=50, width=6, thickness=3. Enter CD, save and run again. Compare results.
+
+## Solution
 
 Step-by-step instructions with screen shots: [<u>Agricultural Drains, Part 2.pptx</u>](Agricultural%20Drains%2C%20Part%202.pptx)
 
