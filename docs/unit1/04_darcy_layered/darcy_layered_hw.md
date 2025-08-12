@@ -27,15 +27,9 @@ b. Assuming that the hydraulic conductivity of the lower sediments is 0.0004 m/d
 c. Using the K values from part b, what percentage of the total head loss occurs in the lower sediments? <br>
 d. Assuming an effective porosity of 0.35 for the upper sediments and 0.25 for the lower sediments, what is the average travel time for a conservative tracer (non-sorbing) to move from the lake to the aquifer?
 
-
-
-
-
-
-
 ## Submission
 
-Save your work in a file named `head_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
+Save your work in a file named `darcy_layered_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
 

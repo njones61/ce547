@@ -25,15 +25,9 @@ Solve the following problems.
 >a) For a one-ft thick slice of the sand layer, how much water would need to be pumped to flush through one pore volume?<br>
 b) How long would it take (in days) to pump five pore volumes of water through the sand?
 
-
-
-
-
-
-
 ## Submission
 
-Save your work in a file named `_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
+Save your work in a file named `darcy_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
 
