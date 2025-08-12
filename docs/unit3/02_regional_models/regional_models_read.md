@@ -1,6 +1,6 @@
 # Pre-Class - Regional Models - Conceptual Model Approach
 
-
+In this pre-class, we learn how GMS's Conceptual Model Approach (CMA) uses GIS features like points, lines, and polygons to build groundwater models more efficiently. It simplifies setup and makes it easy to update the numerical grid without editing individual cells.
 
 Slides (Regional Models - Conceptual Model Approach): [regional_models](regional_models.pptx)
 

@@ -1,6 +1,6 @@
 # Pre-Class - Darcy's Law - Layered Systems
 
-
+In this pre-class, we will learn how Darcy's Law—used to describe water flow in porous media—is extended to layered systems by calculating an equivalent hydraulic conductivity, which differs for parallel and perpendicular flow. We will also explore how Darcy's Law applies to multi-dimensional anisotropic media through the use of partial derivatives and a hydraulic conductivity tensor.
 
 Slides (Darcy's Law - Layers): [darcy-layers.pptx](darcy-layers.pptx) <br>
 Slides (Darcy's Law - Multiple Dimentions): [darcy-multidim.pptx](darcy-multidim.pptx)

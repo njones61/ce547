@@ -1,6 +1,6 @@
 # Pre-Class - MODFLOW Organization and Main Packages
 
-
+In this pre-class, we learn how MODFLOW, a modular groundwater model developed by the USGS, simulates saturated flow using a finite difference grid and a variety of required and optional packages. We explore key components like the discretization, basic, and flow packages, along with common optional packages such as wells, drains, and recharge, each used to represent real-world features and conditions in the aquifer system.
 
 Slides (MODFLOW, Organization & Main Packages): [modflow-main_packages.pptx](modflow-main_packages.pptx) <br>
 Slides (MODFLOW, Optional Packages, pt 1): [modflow-opt_packages1.pptx](modflow-opt_packages1.pptx)

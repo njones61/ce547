@@ -1,6 +1,6 @@
 # Pre-Class - MODPATH Particle Tracking
 
-
+In this pre-class, we explore how MODPATH, a particle-tracking companion to MODFLOW, helps us visualize groundwater flow paths and travel times to better understand aquifer behavior. This skill is essential for applications like predicting contaminant movement and delineating well capture zones.
 
 Slides (MODPATH - Particle Tracking): [modpath](modpath.pptx) <br>
 

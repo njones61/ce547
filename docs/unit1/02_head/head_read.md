@@ -1,6 +1,6 @@
 # Pre-Class - Hydraulic Head Concepts
 
-This video introduces the concept of hydraulic head, which is a fundamental concept in groundwater flow.
+This pre-class introduces the concept of hydraulic head, which is a fundamental concept in groundwater flow. Hydraulic head is the sum of pressure head and elevation head and determines flow direction, with water always moving from high head to low head.
 
 Slides (Hydraulic Head Concepts): [head-concepts.pptx](head-concepts.pptx)
 

@@ -1,6 +1,6 @@
 # Pre-Class - Pilot Point Method
 
-
+In this pre-class, you will learn about the Pilot Point method, a powerful technique for capturing aquifer heterogeneity by adjusting spatially distributed parameters during model calibration with PEST. Understanding this technique is helpful for representing complex subsurface variability.
 
 Slides (Pilot Point Method): [pilot_point_method.pptx](pilot_point_method.pptx)
 

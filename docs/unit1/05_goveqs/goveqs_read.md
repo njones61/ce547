@@ -1,6 +1,6 @@
 # Pre-Class - Governing Equations
 
-
+In this pre-class, we explore how the governing differential equations for groundwater flow are derived from mass conservation and Darcy’s Law, beginning with a general 3D case and simplifying to 2D forms for confined and unconfined aquifers. We also examine how assumptions like steady-state flow, isotropy, and Dupuit's simplifications influence the form of the equations, which are ultimately solved using analytical, graphical, or numerical methods to predict groundwater behavior.
 
 Slides (Governing Eqs - General): [goveqs-general.pptx](goveqs-general.pptx)<br>
 Slides (Governing Eqs - Areal): [goveqs-areal.pptx](goveqs-areal.pptx)<br>

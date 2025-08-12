@@ -1,6 +1,6 @@
 # Pre-Class - Boundary Condition Analysis
 
-
+In this pre-class, we will introduce boundary condition analysis and explain why it is essential for building reliable groundwater models and informing water management decisions. We cover the three basic types of boundaries, head, specified flow, and no-flow, and describe what real features each one represents. We will also look at case studies that demonstrate real-world boundary condition strategies.
 
 Slides (Boundary Condition Analysis - Part 1): [bc_analysis-pt1.pptx](bc_analysis-pt1.pptx) <br>
 Slides (Boundary Condition Analysis - Part 2): [bc_analysis-pt2.pptx](bc_analysis-pt2.pptx) <br>

@@ -1,6 +1,6 @@
 # Pre-Class - MODFLOW Optional Packages
 
-
+In this pre-class, we explore additional optional MODFLOW packages that expand on those previously discussed, enabling more advanced simulation of features like multi-layer wells, stream-aquifer interactions, lake boundaries, evapotranspiration, and flow barriers for more realistic and flexible groundwater modeling.
 
 Slides (MODFLOW, Optional Packages, pt 2): [modflow-opt_packages2](modflow-opt_packages2.pptx)
 
