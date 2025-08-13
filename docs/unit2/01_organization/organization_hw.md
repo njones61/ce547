@@ -1,10 +1,10 @@
 # Homework - Introduction to MODFLOW
 
-Note: You may work in pairs on this assignment.
+_Note: You may work in pairs on this assignment._
 
 Solve the following problems. 
 
-1\. Complete tutorial
+1. Complete tutorial
 >a\. Go to the Tutorials section of the Aquaveo GMS Learning Center:
 >>[http://www.aquaveo.com/software/gms-learning-tutorials](http://www.aquaveo.com/software/gms-learning-tutorials) <br>
 
@@ -19,15 +19,11 @@ c. Suppose that it is observed in the field that the actual discharge through th
 d. Based on the conductance you found, would you say that the model is sensitive or insensitive to the drain conductance? <br>
 e. Did your changes cause the water level in the region surrounding the drains to go up or down? Does that make sense? Explain why it went up or down. <br>
 
-
-
-
-
-
-
 ## Submission
 
-Save your work in a file named `_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
+Make a screenshot of your grid to show that you completed part 1 and paste it into an empty Word document. Then enter your answers for part 2 (model analysis) in the document below the screenshot.
+
+Name your file `organization_hw.docx` or `organization_hw.pdf` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
 

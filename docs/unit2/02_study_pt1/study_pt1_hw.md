@@ -1,8 +1,8 @@
 # Homework - MODFLOW Grid Approach, Part 1
 
-*Note: You may work in pairs on this assignment.*
+_Note: You may work in pairs on this assignment._
 
-Solve the following problems. 
+Solve the following problem. 
 
 Set up the groundwater model shown below. The problem is a simple single layer model with a single injection well and a single extraction well. The problem is as follows:
 
@@ -29,14 +29,15 @@ c) set the top and bottom elevation (if necessary - this can be done with create
 
 8\. Examine the solution. Note the shape of the water table as depicted by the head contours.
 
-9\.At this point, you may wish to experiment with the model by
+9\. At this point, you may wish to experiment with the model by
 >a) changing the pumping rates, <br>
 b) changing the K values (change the global value or try setting up zones of differing K)
 
-
 ## Submission
 
-Save your work in a file named `_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
+Save the GMS project with the completed solution. Zip up all files associated with the project.
+
+Name your zip folder `study_pt1_hw` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
 

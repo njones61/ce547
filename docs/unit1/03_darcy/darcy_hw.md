@@ -26,7 +26,7 @@ Solve the following problems.
 b) How long would it take (in days) to pump five pore volumes of water through the sand?
 
 ## Submission
-
+'
 Save your work in a file named `darcy_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
