@@ -1,4 +1,4 @@
-# Homework - Darcy's Law, Layered Systems
+# Homework #3 - Darcy's Law, Layered Systems
 
 Solve the following problems. 
 

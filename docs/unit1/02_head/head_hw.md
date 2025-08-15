@@ -1,4 +1,4 @@
-# Homework - Hydraulic Head Calculations
+# Homework #1 - Hydraulic Head Calculations
 
 Solve the following problems. 
 

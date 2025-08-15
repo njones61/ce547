@@ -1,4 +1,4 @@
-# Homework - Darcy's Law
+# Homework #2 - Darcy's Law
 
 Solve the following problems. 
 

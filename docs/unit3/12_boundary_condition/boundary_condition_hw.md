@@ -1,26 +1,12 @@
-# Homework - 
+# Homework #17 - Course Evaluation
 
-Solve the following problems. 
+This assignment is simple and will only take you a few minutes. To get credit for this assignment all you need to do is go to the [<u>student ratings website</u>](https://studentratings.byu.edu/) and login to your myBYU account to complete the online course evaluation. Once you have logged on, click on the **Student ratings** button and follow the instructions. I take the students ratings seriously and your feedback will help to improve this course.
 
+This assignment will be worth **10 points.** 
 
-
-
-
-
-
-
+<mark>When you take the evaluation, you will be asked if you want to report completion of the survey. You must answer yes to this question or you will not receive any credit for this assignment.  This does **NOT** mean that your name will be associated with your answers. It simply means that your name will be added to a list of students who have completed the evaluation. I must have this list of names in order to assign credit.</mark>
 
 ## Submission
 
-Save your work in a file named `_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
+You do not need to submit anything to a TA or Learning Suite for this assignment.  I can login and look at a list of who has completed the evaluation (it does not list your answer, just whether or not you have completed the evaluation).  I will just look at this list to determine who should get credit for the assignment. 
 
-## Grading Rubric
-
-Self-grade your assignment using the following rubric. Enter your points in the "Submission notes" section for the assignment on Learning Suite when you upload your file. You can use fractional points if you like (e.g. 2.5).
-
-| Criteria                                    | Points |
-|---------------------------------------------|:------:|
-| Completed on time and all or mostly correct |   3    |
-| Completed more than half of assignment      |   2    |
-| Made an effort                              |   1    |
-| Did nothing                                 |   0    |

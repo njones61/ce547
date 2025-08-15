@@ -1,4 +1,4 @@
-# Homework - MODFLOW Grid Approach, Part 1
+# Homework #5 - MODFLOW Grid Approach, Part 1
 
 _Note: You may work in pairs on this assignment._
 
@@ -37,7 +37,7 @@ b) changing the K values (change the global value or try setting up zones of dif
 
 Save the GMS project with the completed solution. Zip up all files associated with the project.
 
-Name your zip folder `study_pt1_hw` and upload it on Learning Suite after we grade it together in class.
+Name your zip folder `study_pt1_hw.zip` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
 

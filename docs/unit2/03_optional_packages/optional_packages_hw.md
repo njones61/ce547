@@ -1,4 +1,4 @@
-# Homework - MODFLOW Grid Approach, Part 2
+# Homework #6 - MODFLOW Grid Approach, Part 2
 
 _Note: You may **NOT** work in pairs on this assignment._
 
@@ -34,7 +34,7 @@ _**Note:** As you change the conductance of your GHB cells, do NOT reselect the 
 
 Save the GMS project with the completed solution. Zip up all files associated with the project.
 
-Name your zip folder `study_pt2_hw` and upload it on Learning Suite after we grade it together in class.
+Name your zip folder `study_pt2_hw.zip` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
 

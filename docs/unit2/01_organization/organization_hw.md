@@ -1,4 +1,4 @@
-# Homework - Introduction to MODFLOW
+# Homework #4 - Introduction to MODFLOW
 
 _Note: You may work in pairs on this assignment._
 

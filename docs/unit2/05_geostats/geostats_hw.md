@@ -1,4 +1,4 @@
-# Homework - Elevation Data Interpolation
+# Homework #7 - Elevation Data Interpolation
 
 _Note: You may work in pairs on this assignment._
 
@@ -35,7 +35,7 @@ Open the files in text editor to review the contents. One contains a series of e
 
 Save the GMS project with the completed solution. Zip up all files associated with the project.
 
-Name your zip folder `geostats_hw` and upload it on Learning Suite after we grade it together in class.
+Name your zip folder `geostats_hw.zip` and upload it on Learning Suite after we grade it together in class.
 
 ## Grading Rubric
 
