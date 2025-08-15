@@ -19,7 +19,7 @@ After successfully completing this course, you should:
 7. Be able to apply GIS data to develop regional groundwater simulations with MODFLOW.
 8. Be able to calibrate groundwater models using both manual approaches and automated tools such as the PEST code.
 9. Be able to analyze flow directions using particle tracking.
-10. Be able to peform stochastic simulations and analyze uncertainty.
+10. Be able to perform stochastic simulations and analyze uncertainty.
 11. Be able to perform transient simulations.
 12. Be able to analyze long-term groundwater sustainability.
 
@@ -71,7 +71,7 @@ Grades will be assigned based on the following formula. See Learning Suite for a
 
 ## Microsoft Teams
 
-There will be a **Micorsoft Teams** group for this class. You will be invited to join the group by the instructor. The group will be used for announcements, discussions, and questions. You are encouraged to ask questions and participate in discussions. We will also use the group for virtual office hours. I can jump on video chat to help you with your homework or answer questions.
+There will be a **Microsoft Teams** group for this class. You will be invited to join the group by the instructor. The group will be used for announcements, discussions, and questions. You are encouraged to ask questions and participate in discussions. We will also use the group for virtual office hours. I can jump on video chat to help you with your homework or answer questions.
 
 You can access Teams through the web interface or by downloading the app to your computer or phone. You should get in the habit of checking the group regularly for announcements and discussions. You can also set up notifications to be alerted when there is new activity in the group.
 
