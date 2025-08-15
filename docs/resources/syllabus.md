@@ -2,54 +2,52 @@
 
 ## Course Objectives
 
-As the name implies, we will cover two main topics: seepage and slope stability. The two topics are related since seepage and slope stability analyses are often done in tandem.
+The objective of this course is to give you a thorough introduction to groundwater flow modeling and modeling principles in general. This course is application oriented. We cover the fundamental equations and the modeling theory but the emphasis is on teaching you how to solve real world problems. At the end of the semester, you should feel confident in your ability to develop and calibrate a complex 3D groundwater model.
 
-Seepage analysis can take many forms, but the type of analysis we will be doing in this class is the analysis of seepage through vertical profiles, i.e., vertical cross-sections through dams, levees, embankments, etc. We will look at analytical solutions, graphical solutions (flow nets), and numerical solutions (both finite difference and finite element analysis). We will also look at the uses wells for construction dewatering.
-
-Slope stability analysis is the process of analyzing slopes and embankments to determine the factor of safety against slope failure. It is routinely performed on dams, levees, excavations (cuts for highways, etc.), mine tailings, and embankments. Most stability analyses are performed with the aid of a specialized computer program, but we will look at simple cases that can be solved with charts, equations, or spreadsheets.
+Most of the homework assignments for this course are solved with a computer. We will learn to use several groundwater models including MODFLOW and MODPATH. We will also be using the [Groundwater Modeling System (GMS)](https://aquaveo.com//software/gms/introduction). GMS is a graphical pre- and post-processor for the groundwater models we will be using. Using GMS will allow you to learn the fundamental issues related to groundwater modeling without forcing you to spend hours manually organizing input data in a text editor. GMS is available to you on campus in the CAEDM lab the CAEDM labs. If you wish to use GMS on your home computer, you may download a PC version of GMS from the [Aquaveo Website](http://www.aquaveo.com/). After you have downloaded and installed GMS, launch GMS and select the Register command in the File menu. E-mail the security string to me and I will give you a temporary password that will enable GMS.
 
 ## Course Outcomes
 
 After successfully completing this course, you should:
 
 1. Be able to apply Darcy's law to solve basic problems related to flow through porous media.
-2. Understand the governing equations for 2D and 3D groundwater flow, including what simplifying assumptions are used 
-   in the derivation of the equations.
-3. Be able to create and interpret graphical solutions (flow nets) to the governing equations.
-4. Be able to apply analytical solutions to the governing equations, including well equations.
-5. Be able to apply analytical solutions to construction dewatering problems.
-6. Understand the finite difference solution and be able to create finite difference solutions in Excel.
-7. Understand how the finite element method works and how the finite element equations are formulated.
-8. Be able to apply finite element software to solve complex seepage analysis problems.
-9. Understand the basic concepts of the limit equilibrium method of slope stability.
-10. Be able to apply slope stability charts for simple problems.
-11. Be able to apply slope stablity software (such as UTEXAS) for common slope stablility problems.
-12. Be able to solve special cases of slope stability including, reinforced slopes, rapid drawdown, and seismic 
-    conditions.
+2. Understand the governing equations for 2D and 3D groundwater flow, including what simplifying assumptions are used in the derivation of the equations.
+3. Be able to develop conceptual models of groundwater flow systems, including properly formulated boundary conditions.
+4. Understand the basic structure and organization of the MODFLOW model.
+5. Be able to select the appropriate MODFLOW packages for a particular problem and develop the package input.
+6. Understand issues related to MODFLOW solvers and be able to solve common instability issues.
+7. Be able to apply GIS data to develop regional groundwater simulations with MODFLOW.
+8. Be able to calibrate groundwater models using both manual approaches and automated tools such as the PEST code.
+9. Be able to analyze flow directions using particle tracking.
+10. Be able to peform stochastic simulations and analyze uncertainty.
+11. Be able to perform transient simulations.
+12. Be able to analyze long-term groundwater sustainability.
 
 ## Lecture Format
 
-The course will be taught in a "flipped" format. For each class period, you are expected to carefully study the "pre-class" content which will consist of videos and/or reading. A link to the pre-class content for each lecture will be provided on the Learning Suite schedule. You should complete the pre-class content before the associated calss period. The class period will be used for discussing the pre-class content and working through exercises together. 
+The course will be taught in a "flipped" format. For each class period, you are expected to carefully study the "pre-class" content which will consist of videos and/or reading. A link to the pre-class content for each lecture will be provided on the Learning Suite schedule. You should complete the pre-class content before the associated class period. The class period will be used for discussing the pre-class content and working through exercises together. 
 
 ## Quizzes
 
-There will be pre-class quiz associated with each lecture based on the pre-class content. Each quiz is worth 7 points. The first question which is worth 2 pts, is "Did you complete the pre-class content?". Then there will be 4 questions based on that content, and finally there will be an open response question where you are asked if there was anything from the pre-class content that was not clear that you would like to review in class. The quizzes will be on Learning Suite and will be due 15 minutes prior to class.
+I have recorded a series of lectures introducing modeling theory, underlying equations, details about MODFLOW, etc. The videos for these lectures are linked on the class schedule (see the "link" text next to lecture topics on the left). The videos are hosted on YouTube. You can watch them at your convenience. Some days we will doing exercises and not introducing any new material, so there won't be any lectures listed on these days. But for each day there is a video, there will also be a pre-class quiz. The first question will be "Did you watch the video?" There will also be a few simple questions that you can answer pretty easily if you have watched the video. Finally the last question will be a free response asking if any of the video topics are not clear. 
+
+You will be able to retake the quiz as many times as you like before the deadline, which is 30 minutes prior to the beginning of the class period on the day the quiz is due. The quizzes are designed to help you review the material and ensure you are prepared for the in-class exercises.
+
+You will be allowed to drop 3 quiz scores. There will be no makeup quizzes.
+
+When we meet in class, we will review parts of the video that needs more explanation, answer questions, and have a short discussion on the topic. Then we will work on in-class exercises related to the topic. As a result, some classes will be short and some will be longer, depending on the exercises. The goal is to allow you to review the main content at your convenience, reinforce where needed, and learn by doing hands-on work.
 
 ## Exams
 
-Exams will be given on-line. You will have a 2-3 days to take the exam. The exam will be timed and you will have 3 hours to complete it. The exam will be closed book, closed notes, and closed internet. You may not discuss the exam with anyone else until the exam period is over. You may not use any other person to help you with the exam. You may not use any other person's work as your own.
-
-Since we are covering two distinct topics, there will be two exams. The first exam will cover the seepage portion of the class and the second exam will cover the slope stability portion.
+There will be two midterm exams and a final exam. The final exam will be comprehensive. All exams will be given online using Learning Suite and Proctorio.  Each exam will have a time limit (3 hrs for the midterms, 4 hrs for the final). The penalty for going over the time limit is two points per minute. There will be no make-up exams. If you are unable to take an exam at the scheduled time because of extreme circumstances beyond your control, visit with me and we will arrange something.
 
 ## Homework
 
-The homework is essential to reinforce the topics covered in class. The homework will also prepare you for the exams. Since we do not have a TA for the class, we will grade the homework together at the beginning of class in the class 
-period immediately following when an assignment is due. You don't need to upload your completed assignment until after we have graded it, so technically it is not due until that time. However, you should have the assignment completed before class so we can grade it together. I will show you the solution to the homework and you will grade your own work using the 
+The homework is essential to reinforce the topics covered in class. The homework will also prepare you for the exams. Since we do not have a TA for the class, we will grade the homework together at the beginning of class in the class period immediately following when an assignment is due. You don't need to upload your completed assignment until after we have graded it, so technically it is not due until that time. However, you should have the assignment completed before class so we can grade it together. I will show you the solution to the homework and you will grade your own work using the 
 3-pt rubric provided at the end of each assignment. You will then upload your completed assignment to Learning Suite 
 and enter your grade in the "Submission notes" section for the assignment on Learning Suite. 
 
-Since we go over the solutions together in class and self-grade the homework, late homework will not be accepted. If 
-you have a legitimate reason for not having the homework completed before we grade it in class, you should contact 
+Since we go over the solutions together in class and self-grade the homework, late homework will not be accepted. If you have a legitimate reason for not having the homework completed before we grade it in class, you should contact 
 me to get permission for a late submission.
 
 ## Academic Honesty
@@ -61,14 +59,15 @@ I encourage you to work together on the homework as long as everyone is contribu
 
 Grades will be assigned based on the following formula. See Learning Suite for a complete list of scores and grades.
 
-| Item | Percentage |
-|------|------------|
-| Homework | 25% |
-| Case Study | 7% |
-| Exam #1 | 30% |
-| Exam #2 | 30% |
-| Quizzes | 8% |
-| Total | 100% |
+| Item         | Percentage |
+|--------------|------------|
+| Homework     | 16%        |
+| Quizzes      | 10%        |
+| Exam #1      | 16%        |
+| Exam #2      | 16%        |
+| Final Exam   | 22%        |
+| Term Project | 20%        |
+| Total        | 100%       |
 
 ## Microsoft Teams
 
@@ -78,14 +77,16 @@ You can access Teams through the web interface or by downloading the app to your
 
 ## Textbooks
 
-**Required**: _Soil Strength and Slope Stability, 2nd Edition_, Duncan, Wright, and Brandon
+There are no required textbooks for this course. However, the following books are recommended and will be useful references throughout the course:
 
-We will use text primarily during the second part of the semester. You can access this textbook for free through the BYU library as described in the [Textbook](./textbook.md) section.
+**Optional**: [Anderson, Woessner, and Hunt, Applied Groundwater Modeling: Simulation of Flow and Advective Transport](https://www.amazon.com/Applied-Groundwater-Modeling-Simulation-Advective/dp/0123847052)
 
-**Optional**: _Construction Dewatering and Groundwater Control_, Powers, Et al.
+Widely used textbook that covers the fundamental concepts of groundwater modeling. It is a good reference for the topics we will cover in this course. It is not required, but I recommend it if you want a deeper understanding of the subject.
 
-Good reference on dewatering issues
+**Optional**: [Harr, A Civil Action](https://www.amazon.com/Civil-Action-Jonathan-Harr/dp/067976152X)
 
-**Optional**: _Seepage, Drainage, and Flow Nets_, Cedergren.
+This is a best-selling non-fiction novel that happens to be a legal thriller about a major court case involving a series of deaths which may have been linked to groundwater contamination. It was awarded the title of Best Non-Fiction Novel of 1995. I think you will enjoy it and it will provide us with some very interesting topics of discussion. Also, our term project will involve building a model of the groundwater flow system described in the book. The book has been made into a movie starring John Travolta. But, of course, the book is always better than the movie.
 
-Good, but dated. Last edition published in 1997.
+**Optional**: [McDonald and Harbaugh, A Modular Three-Dimensional Finite-Difference Groundwater Model, U.S.G.S.](https://ce547.groups.et.byu.net/syllabus/docs/modflow.pdf)
+
+This is the reference manual for MODFLOW, a model we will discuss in great detail. The manual is public domain (not copyrighted). Click on the link above to get an electronic copy. This is the entire manual minus most of the FORTRAN source code.
