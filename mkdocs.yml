@@ -20,7 +20,7 @@ nav:
   - Home: index.md
   - Class Resources:
     - Syllabus: resources/syllabus.md
-    - Term Project: resources/termproject.md
+    - Term Project: resources/termproject/termproject.md
     - GMS Software: resources/gms.md
     - Course Overview: resources/overview/intro_read.md
   - Unit 1 - Modeling Fundamentals:
