@@ -12,7 +12,7 @@ Note that there is a specific time range mentioned by the judge. Refer to this t
 
 ## Web Site
 
-The [Woburn Hydrogeology Data](https://ce547.groups.et.byu.net/woburn/) web site has been established to provide you with data related to the Woburn site.  The data on this site are copies of actual investigations at Woburn. There may be more detail here than you end up using, but it is a good resource that you should explore carefully.
+The [Woburn Hydrogeology Data](https://woburn.readthedocs.io/en/latest/){target='blank'} web site has been established to provide you with data related to the Woburn site.  The data on this site are copies of actual investigations at Woburn. There may be more detail here than you end up using, but it is a good resource that you should explore carefully.
 
 ## Teams
 
