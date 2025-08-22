@@ -20,7 +20,6 @@ nav:
   - Home: index.md
   - Class Resources:
     - Syllabus: resources/syllabus.md
-    - Term Project: resources/termproject/termproject.md
     - GMS Software: resources/gms.md
     - Course Overview: resources/overview/intro_read.md
   - Unit 1 - Modeling Fundamentals:
@@ -104,3 +103,11 @@ nav:
         - Pre-Class: unit3/12_boundary_condition/boundary_condition_read.md
         - In-Class: unit3/12_boundary_condition/boundary_condition_class.md
         - Homework: unit3/12_boundary_condition/boundary_condition_hw.md
+  - Term Project:
+    - Overview: termproject/tp_overview/tp_overview.md
+    - Case Study 1: termproject/case_study_1/case_study_1.md
+    - Case Study 2: termproject/case_study_2/case_study_2.md
+    - Case Study 3: termproject/case_study_3/case_study_3.md
+    - Case Study 4: termproject/case_study_4/case_study_4.md
+    - Case Study 5: termproject/case_study_5/case_study_5.md
+    - Case Study 6: termproject/case_study_6/case_study_6.md
