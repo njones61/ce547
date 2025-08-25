@@ -6,7 +6,7 @@ In this exercise we will input the field observations and calibrate the model.
 
 Before continuing,
 
->>1) Launch GMS open the GMS project you created in [<u>Case Study #1</u>](fillinthis).
+>>1) Launch GMS open the GMS project you created in [<u>Case Study #1</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_1/case_study_1/).
 
 >>2) Select **File|Save As** to save the project under a new name.
 

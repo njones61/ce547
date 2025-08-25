@@ -6,7 +6,7 @@ When wells G and H were active, they were only used during the summer months. In
 
 Before continuing,
 
->>1) Launch GMS and open the particle-tracking model you created in [<u>case study #4</u>](fillthisin).
+>>1) Launch GMS and open the particle-tracking model you created in [<u>case study #4</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_4/case_study_4/).
 
 >>2) Save the project to a new name (case4-ss.gpr or something - "ss" for the initial steady state run).
 

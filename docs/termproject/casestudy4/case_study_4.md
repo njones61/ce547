@@ -6,7 +6,7 @@ In this exercise we take the completed predictive model and prepare it for parti
 
 Before continuing,
 
->>1) Launch GMS and open the predictive model you created in [<u>case study #3</u>](fillthisin). Or if you did case studies 4 or 5, use the model resulting from those exercises.
+>>1) Launch GMS and open the predictive model you created in [<u>case study #3</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_3/case_study_3/). Or if you did case studies 4 or 5, use the model resulting from those exercises.
 
 >>2) Save the project under a new name.
 

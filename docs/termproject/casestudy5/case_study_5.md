@@ -6,7 +6,7 @@ In this exercise we will apply a stochastic approach to analyzing our predictive
 
 Before continuing,
 
->>1) Launch GMS and open the predictive/particle tracking model you created in [<u>case study #4</u>](fillthisin).
+>>1) Launch GMS and open the predictive/particle tracking model you created in [<u>case study #4</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_4/case_study_4/).
 
 >>2) Save the project under a new name.
 

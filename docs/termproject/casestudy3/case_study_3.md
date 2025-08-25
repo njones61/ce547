@@ -6,7 +6,7 @@ In this exercise we will change our model from calibration mode to prediction mo
 
 Before continuing,
 
->>1) Launch GMS and open the calibrated MODFLOW model you created in [<u>Case Study #2</u>](fillthisin).
+>>1) Launch GMS and open the calibrated MODFLOW model you created in [<u>Case Study #2</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_2/case_study_2/).
 
 ## Switching to Forward Mode
 
