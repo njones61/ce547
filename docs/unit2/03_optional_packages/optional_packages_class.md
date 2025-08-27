@@ -2,11 +2,11 @@
 
 For this case study, we will be solving the problem shown in the following figure using a one layer MODFLOW model.  Since the model domain is rectangular and the source/sink objects are simple, we can set up this model quickly using the “grid approach”.  The site is 1800 m wide from east to west and 2000 m wide from north to south.  The west boundary corresponds to a ground water divide and the north and south boundaries correspond to parallel flow boundaries.  Thus, these three boundaries will be simulated as no-flow boundaries.  The east side of the model corresponds to a river that will be modeled with a constant head boundary.  Two production wells and an agricultural drain are located within the model domain.
 
-![fremont.gif](fremont.gif)
+![fremont.gif](images/fremont.gif)
 
 **Background Image**
 
-Before building the model, first download and unzip the following file: [<u>startfiles.zip</u>](startfiles.zip)
+Before building the model, first download and unzip the following file: [<u>startfiles.zip</u>](zip%20folders/startfiles.zip)
 
 Then launch GMS and read in the project file (map.gpr) using the **File|Open** command.
 
@@ -51,7 +51,7 @@ If your solution is successful, you may wish to try modifying your model as foll
 
 Step-by-step instructions with screen shots: [<u>fremont river, part 1.pptx</u>](fremont%20river%2C%20part%201.pptx)
 
-GMS project file with final version of model: [<u>fremont1.zip</u>](fremont1.zip)
+GMS project file with final version of model: [<u>fremont1.zip</u>](zip%20folders/fremont1.zip)
 
 Video: [<u>www.youtube.com/watch?v=1AaLIQfzQ6U</u>](https://www.youtube.com/watch?v=1AaLIQfzQ6U)
 
@@ -59,7 +59,7 @@ Video: [<u>www.youtube.com/watch?v=1AaLIQfzQ6U</u>](https://www.youtube.com/watc
 
 For this case study, we will be revisiting the Fremont River model. We will add a lake and a flow barrier simulating a low permeability fault.
 
-1) Download and unzip the [<u>start.zip</u>](start.zip) file. Open the **fremont2.gpr** file in GMS.
+1) Download and unzip the [<u>start.zip</u>](zip%20folders/start.zip) file. Open the **fremont2.gpr** file in GMS.
 
 2) Apply general head conditions to the cells in the vicinity of the lake polygon.
 >a) Select the cells using a polygon<br>
@@ -82,9 +82,9 @@ Experiment with parameter values.
  
 ## Solution
 
-Step-by-step instructions with screen shots: [<u>fremont river, part 2.pptx</u>](fremont%20river%2C%20part%202.pptx)
+Step-by-step instructions with screen shots: [<u>fremont river, part 2.pptx</u>](Fremont%20River%2C%20Part%202.pptx)
 
-GMS project file with final version of model: [<u>fremont2.zip</u>](fremont2.zip)
+GMS project file with final version of model: [<u>fremont2.zip</u>](zip%20folders/fremont2.zip)
 
 Video: [<u>www.youtube.com/watch?v=OwDWJ-IAb5Q</u>](https://www.youtube.com/watch?v=OwDWJ-IAb5Q)
 

@@ -6,7 +6,7 @@ In this exercise we will apply a stochastic approach to analyzing our predictive
 
 Before continuing,
 
->>1) Launch GMS and open the predictive/particle tracking model you created in [<u>case study #4</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_4/case_study_4/).
+>>1) Launch GMS and open the predictive/particle tracking model you created in [<u>case study #4</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/casestudy4/case_study_4/).
 
 >>2) Save the project under a new name.
 
@@ -34,7 +34,7 @@ If you need to create recharge zones:
 
 >>4) Select the **Build Polygon** command. Select each polygon to make sure that the polygons were built correctly.
 
-![recharge-zones.png](case_study_5/recharge-zones.png)
+![recharge-zones.png](recharge-zones.png)
 
 _Figure 1. Suggested Recharge Zones._
 

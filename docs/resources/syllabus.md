@@ -50,6 +50,9 @@ and enter your grade in the "Submission notes" section for the assignment on Lea
 Since we go over the solutions together in class and self-grade the homework, late homework will not be accepted. If you have a legitimate reason for not having the homework completed before we grade it in class, you should contact 
 me to get permission for a late submission.
 
+## Term Project
+There will be a term project that will involve building a complete groundwater model of a real-world site. More details about the project are provided on the [Term Project Overview page.](https://byu-ce547.readthedocs.io/en/latest/termproject/tpoverview/tp_overview/)
+
 ## Academic Honesty
 
 If I discover that you have cheated on one of my exams, I will give you a failing grade for the course and refer you to the BYU Honor Code Office.

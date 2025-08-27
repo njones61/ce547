@@ -6,11 +6,11 @@ In this exercise we will import a background image, build the conceptual model, 
 
 The state of Massachusetts provides a wealth of free digital geographic information on their web site.  The USGS quad map of the Woburn area was downloaded in TIFF format from http://www.state.ma.us/mgis/ftpquad.htm.  A sample of the image is shown in Figure 1 below.  Wells G and H are clearly visible.  The image is actually a composite of 2 USGS quad maps
 
-![mapthumbnail.gif](case_study_1/mapthumbnail.gif)
+![mapthumbnail.gif](images/mapthumbnail.gif)
 
 _Figure 1. Background Image of Aberjona Region._
 
->>1) Right-click and download the [<u>case1.zip</u>](case_study_1/case1.zip) file. Unzip the file.
+>>1) Right-click and download the [<u>case1.zip</u>](case1.zip) file. Unzip the file.
 
 >>2) Use the File|Open command to read in the **q233914.tif** file.
 
@@ -46,13 +46,13 @@ Next we will create a conceptual model object and import a boundary converage.
 
 We will create a boundary coverage that we can use as a template to build other coverages in order to ensure that each coverage has a consistent boundary. The boundary we will be using is shown in Figure 2. The northern and southern boundaries are parallel flow boundaries, and the east and west boundaries are where the aquifer becomes thin. The Aberjona River runs from north to south through the middle of the model, and flow is primarily downhill towards the river.
 
-![boundary.gif](case_study_1/boundary.gif)
+![boundary.gif](images/boundary.gif)
 
 _Figure 2. Boundaries Used for Model._
 
 To ensure that each group uses a consistent boundary, we will import the boundary from a shapefile.
 
->>2) Right-click to download the [<u>boundary_arcs.shp</u>](case_study_1/boundary_arcs.shp) file.
+>>2) Right-click to download the [<u>boundary_arcs.shp</u>](boundary_arcs.shp) file.
 
 >>3) Use the **File|Open** command to import the file.
 
@@ -96,7 +96,7 @@ Next we will create a coverage for the river arc.
 
 Note that the conductance value is an estimate. You may wish to adjust this value during the calibration phase.
 
-![river.gif](case_study_1/river.gif)
+![river.gif](images/river.gif)
 
 Figure 3. The Aberjona River Arc.
 
@@ -179,7 +179,7 @@ Next we will assign starting head and hydraulic conductivity values to the grid 
 
 The final step before running the model is to interpolate a set of top and bottom elevations. To do this, we will download a file containing a scatter point set with both ground surface and bedrock elevations. 
 
->>1) Download the [<u>elevations.txt</u>](case_study_1/elevations.txt) file (use the **Save Link As...** option in your browser).
+>>1) Download the [<u>elevations.txt</u>](elevations.txt) file (use the **Save Link As...** option in your browser).
 
 >>2) Use the **File|Open** command to open the file and follow the steps in the **Import Wizard.**
 

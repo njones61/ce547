@@ -6,7 +6,7 @@ In this exercise we will change our model from calibration mode to prediction mo
 
 Before continuing,
 
->>1) Launch GMS and open the calibrated MODFLOW model you created in [<u>Case Study #2</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_2/case_study_2/).
+>>1) Launch GMS and open the calibrated MODFLOW model you created in [<u>Case Study #2</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/casestudy2/case_study_2/).
 
 ## Switching to Forward Mode
 
@@ -74,7 +74,7 @@ At this point, we have at least two options:
 
 >>**Option B)** Split the model into three layers. The bottom of layer 2 (top of layer 3) will correspond to the bottom of the screens for all four wells. The bottom of layer 1 (top of layer 2) would correspond to the top of the industrial well screens. The industrial wells would then reside completely in layer 2 and wells G and H would reside in both layers 1 and 2. We can enter the well screen elevations as attributes to the well point features corresponding to wells G and H in the conceptual model and the total pumping rate for each well would be distributed between layers 1 and 2 when the Map -> MODFLOW command is executed. This is illustrated below.
 
-![screens.png](case_study_3/screens.png)
+![screens.png](images/screens.png)
 
 For the purpose of illustrating the steps involved, we will go with option B. You are free to use either option.
 
@@ -90,13 +90,13 @@ Before continuing, it is useful to review the bottom elevations.
 
 You should see the contours of the bedrock. Note that the bedrock follows the shape of a valley with a deep section in the middle where the wells are located. You should also note that the bedrock rises sharply on the eastern side, resulting in a very thin saturated zone. As we split the model layers we need to be careful not to make the layers too thin in this area, or the cells in the upper layers will go dry. A safer option is to limit the multi-layer section of the model to the thicker region in the middle as shown in Figure 1.
 
-![layering.png](case_study_3/layering.png)
+![layering.png](images/layering.png)
 
 _Figure 1. Idealized Cross Section Showing Proposed Layer Configuration._
 
 Note that the cells in layer 1 will be active over the entire model domain but the cells in layers 2 and 3 will only be active in the deeper regions in the middle of the model. This can be easily accomplished using the interplation tools in GMS by interpolating a set of layer elevations for the tops of layers 2 and 3 that match the tops and bottoms of the well screens and project in a relatively flat manner away from the wells shown in Figure 2.
 
-![layering2.png](case_study_3/layering2.png)
+![layering2.png](images/layering2.png)
 
 _Figure 2. Layer Elevations Prior to Truncation via GMS Model Checker._
 
@@ -110,9 +110,9 @@ Before we do the interpolation, we need to create some scatter points. We will f
 
 >>3) Rename the two data sets to something more meaningful ("**bot1**" and "**bot2**" for example).
 
->>4) Using the **Create Scatter Point** tool ![createpointtool.png](case_study_3/createpointtool.png), create a point at the location of each of the four wells.
+>>4) Using the **Create Scatter Point** tool ![createpointtool.png](images/createpointtool.png), create a point at the location of each of the four wells.
 
->>5) Using the elevations shown in Table 1 as a guide, enter the top elevations for the well screens in **bot1** and the bottom elevations for the well screens in **bot2**. Remember that the thickness of layer 2 = 10 ft, so the top elevations for layer 2 for wells G & H should be the bottom elevations + 10 ft. Use the **Select Scatter Point** tool ![selectpointtool.png](case_study_3/selectpointtool.png) and switch between the two data sets in the **Project Explorer** as you edit the elevations.
+>>5) Using the elevations shown in Table 1 as a guide, enter the top elevations for the well screens in **bot1** and the bottom elevations for the well screens in **bot2**. Remember that the thickness of layer 2 = 10 ft, so the top elevations for layer 2 for wells G & H should be the bottom elevations + 10 ft. Use the **Select Scatter Point** tool ![selectpointtool.png](images/selectpointtool.png) and switch between the two data sets in the **Project Explorer** as you edit the elevations.
 
 Now we need to add some supplemental points to control the interpolation of the surfaces. If we were to interpolate with only four points, we would most likely get oscillation in the surfaces. We want to simply project the trends in the tops and bottom elevations for the well screens so that the surfaces are relatively smooth and flat.
 
@@ -122,7 +122,7 @@ Now we need to add some supplemental points to control the interpolation of the 
 
 >>8) Edit the elevations for the upper data set (**bot2**) in a similar fashion.
 
-![bot1_elevs.png](case_study_3/bot1_elevs.png) ![bot2_elevs.png](case_study_3/bot2_elevs.png)
+![bot1_elevs.png](images/bot1_elevs.png) ![bot2_elevs.png](images/bot2_elevs.png)
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (a) Bot1 Elevations &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; (b) Bot2 Elevations
 
@@ -136,9 +136,9 @@ Before we interpolate the layer elevations, we need to split the single layer in
 
 >>2) Select one of the cells in the middle of the model domain.
 
->>3) Click on the **Front View** icon ![frontview.png](case_study_3/frontview.png).
+>>3) Click on the **Front View** icon ![frontview.png](images/frontview.png).
 
->>4) Select the **Split Layer** tool ![splitlayer.png](case_study_3/splitlayer.png) and click on one of the cells about 1/3 of the way down the cell. Click a second time about 2/3 of the way down the cell.
+>>4) Select the **Split Layer** tool ![splitlayer.png](images/splitlayer.png) and click on one of the cells about 1/3 of the way down the cell. Click a second time about 2/3 of the way down the cell.
 
 Note that the grid now contains three layers. The MODFLOW solutions have also been automatically removed since they no longer are compatible with the current grid.
 
@@ -186,23 +186,23 @@ First we will create three materials:
 
 Next, we will assign the materials to the cells.
 
->>5) Switch to plan view ![planview.png](case_study_3/planview.png).
+>>5) Switch to plan view ![planview.png](images/planview.png).
 
->>6) Use the **Select Layer** tool ![selectlayer.png](case_study_3/selectlayer.png) to select all cells in the top layer.
+>>6) Use the **Select Layer** tool ![selectlayer.png](images/selectlayer.png) to select all cells in the top layer.
 
->>7) Click on the **Properties** icon ![properties.png](case_study_3/properties.png) and change the material type (if necessary) to **layer_1**.
+>>7) Click on the **Properties** icon ![properties.png](images/properties.png) and change the material type (if necessary) to **layer_1**.
 
 >>8) Switch to layers 2 & 3 and repeat the previous steps to assign **layer_2** to the second layer and **layer_3** to the third layer.
 
 Now we are ready to view the grid in 3D.
 
->>9) Click on the **Ortho/General Mode** icon ![ortho.png](case_study_3/ortho.png) to exit ortho mode.
+>>9) Click on the **Ortho/General Mode** icon ![ortho.png](images/ortho.png) to exit ortho mode.
 
->>10) Click on the **Oblique View** icon ![oblique.png](case_study_3/oblique.png).
+>>10) Click on the **Oblique View** icon ![oblique.png](images/oblique.png).
 
 >>11) Open the **Display Options** dialog and turn on the **Cell Faces** option. Change the **Color** option to **Material** and exit the dialog.
 
->>12) Use the Rotate tool ![rotate.png](case_study_3/rotate.png) to view the grid from various angles.
+>>12) Use the Rotate tool ![rotate.png](images/rotate.png) to view the grid from various angles.
 
 If you see some problems, you will need to edit the scatter point elevations and redo the interpolate/fix processes. When you are finished:
 

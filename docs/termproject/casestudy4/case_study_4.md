@@ -6,7 +6,7 @@ In this exercise we take the completed predictive model and prepare it for parti
 
 Before continuing,
 
->>1) Launch GMS and open the predictive model you created in [<u>case study #3</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_3/case_study_3/). Or if you did case studies 4 or 5, use the model resulting from those exercises.
+>>1) Launch GMS and open the predictive model you created in [<u>case study #3</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/casestudy3/case_study_3/). Or if you did case studies 4 or 5, use the model resulting from those exercises.
 
 >>2) Save the project under a new name.
 
@@ -14,7 +14,7 @@ Before continuing,
 
 In order to ensure that we will be comparing apples to apples and oranges to oranges, we will import a shapefile containing the Beatrice/Riley and W.R. Grace property boundaries.
 
->>1) Right-click to download the [<u>properties.zip</u>](case_study_4/properties.zip) file.
+>>1) Right-click to download the [<u>properties.zip</u>](properties.zip) file.
 
 >>2) Unzip the file.
 
@@ -38,7 +38,7 @@ Note that the default value for porosity = 0.3. This will have a direct effect o
 
 Note that the default zone code = 1. We can use zone codes to color our output (pathlines) based on where the particles begin or end. We will assign one zone code to wells G and H and other to the two industrial wells.
 
->>4) Select the cells containing wells G and H and click on the Properties icon ![properties.png](case_study_4/properties.png).
+>>4) Select the cells containing wells G and H and click on the Properties icon ![properties.png](images/properties.png).
 
 >>5) Change the MODPATH Zone Code to 2.
 
@@ -76,7 +76,7 @@ If your pathlines reach wells G and H, you may wish to vary the color based on w
 
 Note that the default tracking option is to track all particles until they reach a final destination. We can look at the travel times by selecting the particles/pathlines.
 
->>9) Select the **Select Particles** tool ![selectparticles.png](case_study_4/selectparticles.png).
+>>9) Select the **Select Particles** tool ![selectparticles.png](images/selectparticles.png).
 
 >>10) Drag a box around all of the particles in the W.R. Grace polygon.
 
@@ -110,7 +110,7 @@ At this point, we could use the **Select Particles at Cells** command, but that 
 
 >>6) Repeat for the instances of Wells G and H in layer 2.
 
-![generate-particles.png](case_study_4/generate-particles.png)
+![generate-particles.png](images/generate-particles.png)
 
 _Figure 1. Particle Distributions on Wells G and H._
 

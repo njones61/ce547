@@ -6,7 +6,7 @@ When wells G and H were active, they were only used during the summer months. In
 
 Before continuing,
 
->>1) Launch GMS and open the particle-tracking model you created in [<u>case study #4</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_4/case_study_4/).
+>>1) Launch GMS and open the particle-tracking model you created in [<u>case study #4</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/casestudy4/case_study_4/).
 
 >>2) Save the project to a new name (case4-ss.gpr or something - "ss" for the initial steady state run).
 
@@ -40,9 +40,9 @@ First, we will turn on the transient option and define the stress periods.
 
 >>3) Open the **Stress Periods** dialog and turn on the **Use dates/times** toggle.
 
->>4) Enter a set of dates to define the stress periods used in the simulation. We will start the simulation on 1/1/1965 and end it on 5/1/1979. The wells start pumping each year on 6/1 and stop pumping on 9/1 each year. This results in a total of 29 stress periods. Make your time steps about ten days long. When finished, your dialog should look like the example shown in Figure 1. Note that you do not need to enter the times, just the dates. You may find it easier to enter dates and time steps in Excel (see [<u>stress periods.xlsx</u>](case_study_6/stress%20periods.xlsx)) and paste them to the dialog via the clipboard. Don't worry about setting up the lengths as they are automatically calculated by GMS from the dates.
+>>4) Enter a set of dates to define the stress periods used in the simulation. We will start the simulation on 1/1/1965 and end it on 5/1/1979. The wells start pumping each year on 6/1 and stop pumping on 9/1 each year. This results in a total of 29 stress periods. Make your time steps about ten days long. When finished, your dialog should look like the example shown in Figure 1. Note that you do not need to enter the times, just the dates. You may find it easier to enter dates and time steps in Excel (see [<u>stress periods.xlsx</u>](stress%20periods.xlsx)) and paste them to the dialog via the clipboard. Don't worry about setting up the lengths as they are automatically calculated by GMS from the dates.
 
-![stressperiods.png](case_study_6/stressperiods.png)
+![stressperiods.png](stressperiods.png)
 
 _Figure 1. Stress Periods Dialog._
 
@@ -58,7 +58,7 @@ Before saving our changes, we delete the head and flow observations in the Map M
 
 Next we will modify the well data in the conceptual model to correspond to the transient pumping schedule. The pumping schedules for the wells are saved in a text file which you’ll import into GMS. 
 
->>1) Right-click and download the file [<u>wellschedules.txt</u>](case_study_6/wellschedules.txt).
+>>1) Right-click and download the file [<u>wellschedules.txt</u>](wellschedules.txt).
 
 Open up the wellschedules.txt file in a text editor. Note that well H did not go online until 1968. Each record represents a well id, date, time, and pumping rate. The well id (name) in the first column should match the name assigned to the wells in the conceptual model corresponding to wells G and H. Before continuing,
 

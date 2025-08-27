@@ -6,7 +6,7 @@ In this exercise we will input the field observations and calibrate the model.
 
 Before continuing,
 
->>1) Launch GMS open the GMS project you created in [<u>Case Study #1</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/case_study_1/case_study_1/).
+>>1) Launch GMS open the GMS project you created in [<u>Case Study #1</u>](https://byu-ce547.readthedocs.io/en/latest/termproject/casestudy1/case_study_1/).
 
 >>2) Select **File|Save As** to save the project under a new name.
 
@@ -20,7 +20,7 @@ To calibrate the model, we need field observed values. We’ll use head observat
 
 The head observations were collected in April, 1985.
 
->>1) Right-click to download the [<u>4-3-85_observe.txt</u>](case_study_2/4-3-85_observe.txt) file to your local drive.
+>>1) Right-click to download the [<u>4-3-85_observe.txt</u>](4-3-85_observe.txt) file to your local drive.
 
 >>2) Right-click on your conceptual model object and create a new coverage.
 
@@ -28,7 +28,7 @@ The head observations were collected in April, 1985.
 
 >>4) Open the **4-3-85_observe.txt** file.  Follow the appropriate steps in the text import wizard.
 
-There is another set of head observations ([<u>12-1-85_observe.txt</u>](case_study_2/12-1-85_observe.txt)) collected at the beginning of December 1985, prior to the 30-day pump test. You are welcome to use these observations as well. Just make sure you don't use both the April and the December observations at the same time.
+There is another set of head observations ([<u>12-1-85_observe.txt</u>](12-1-85_observe.txt)) collected at the beginning of December 1985, prior to the 30-day pump test. You are welcome to use these observations as well. Just make sure you don't use both the April and the December observations at the same time.
 
 ### Flow
 
