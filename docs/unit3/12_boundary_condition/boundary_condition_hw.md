@@ -8,5 +8,5 @@ This assignment will be worth **10 points.**
 
 ## Submission
 
-You do not need to submit anything to a TA or Learning Suite for this assignment.  I can login and look at a list of who has completed the evaluation (it does not list your answer, just whether or not you have completed the evaluation).  I will just look at this list to determine who should get credit for the assignment. 
+You do not need to submit anything to the TA or Learning Suite for this assignment.  I can login and look at a list of who has completed the evaluation (it does not list your answer, just whether or not you have completed the evaluation).  I will just look at this list to determine who should get credit for the assignment. 
 

@@ -38,17 +38,5 @@ You will need to unzip the files after you download them. Then do the following:
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project.
+Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `pilot_hw.zip` and upload it to Learning Suite.
 
-Name your zip folder `pilot_hw.zip` and upload it on Learning Suite after we grade it together in class.
-
-## Grading Rubric
-
-Self-grade your assignment using the following rubric. Enter your points in the "Submission notes" section for the assignment on Learning Suite when you upload your file. You can use fractional points if you like (e.g. 2.5).
-
-| Criteria                                    | Points |
-|---------------------------------------------|:------:|
-| Completed on time and all or mostly correct |   3    |
-| Completed more than half of assignment      |   2    |
-| Made an effort                              |   1    |
-| Did nothing                                 |   0    |

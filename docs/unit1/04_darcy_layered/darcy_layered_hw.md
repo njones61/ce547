@@ -29,15 +29,5 @@ d. Assuming an effective porosity of 0.35 for the upper sediments and 0.25 for t
 
 ## Submission
 
-Save your work in a file named `darcy_layered_hw.xlsx` and upload it on Learning Suite after we grade it together in class.
+Save your work in a file named `darcy_layered_hw.xlsx` and upload it to Learning Suite.
 
-## Grading Rubric
-
-Self-grade your assignment using the following rubric. Enter your points in the "Submission notes" section for the assignment on Learning Suite when you upload your file. You can use fractional points if you like (e.g. 2.5).
-
-| Criteria                                    | Points |
-|---------------------------------------------|:------:|
-| Completed on time and all or mostly correct |   3    |
-| Completed more than half of assignment      |   2    |
-| Made an effort                              |   1    |
-| Did nothing                                 |   0    |

@@ -21,17 +21,5 @@ e. Did your changes cause the water level in the region surrounding the drains t
 
 ## Submission
 
-Make a screenshot of your grid to show that you completed part 1 and paste it into an empty Word document. Then enter your answers for part 2 (model analysis) in the document below the screenshot.
+Make a screenshot of your grid to show that you completed part 1 and paste it into an empty Word document. Then enter your answers for part 2 (model analysis) in the document below the screenshot. Name your file `organization_hw.docx` or `organization_hw.pdf` and upload it to Learning Suite.
 
-Name your file `organization_hw.docx` or `organization_hw.pdf` and upload it on Learning Suite after we grade it together in class.
-
-## Grading Rubric
-
-Self-grade your assignment using the following rubric. Enter your points in the "Submission notes" section for the assignment on Learning Suite when you upload your file. You can use fractional points if you like (e.g. 2.5).
-
-| Criteria                                    | Points |
-|---------------------------------------------|:------:|
-| Completed on time and all or mostly correct |   3    |
-| Completed more than half of assignment      |   2    |
-| Made an effort                              |   1    |
-| Did nothing                                 |   0    |
