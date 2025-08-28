@@ -4,7 +4,7 @@ In this exercise we will import a background image, build the conceptual model, 
 
 ## Importing a background image
 
-The state of Massachusetts provides a wealth of free digital geographic information on their web site.  The USGS quad map of the Woburn area was downloaded in TIFF format from http://www.state.ma.us/mgis/ftpquad.htm.  A sample of the image is shown in Figure 1 below.  Wells G and H are clearly visible.  The image is actually a composite of 2 USGS quad maps
+The state of Massachusetts provides a wealth of free digital geographic information on their web site.  The USGS quad map of the Woburn area was downloaded in TIFF format from [<u>https://www.mass.gov/info-details/massgis-data-usgs-topographic-quadrangle-images</u>](https://www.mass.gov/info-details/massgis-data-usgs-topographic-quadrangle-images).  A sample of the image is shown in Figure 1 below.  Wells G and H are clearly visible.  The image is actually a composite of 2 USGS quad maps
 
 ![mapthumbnail.gif](images/mapthumbnail.gif)
 
