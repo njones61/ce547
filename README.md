@@ -1,5 +1,6 @@
-# Civil Engineering 547 (CE 547)
+# 🌊 Civil Engineering 547 (CE 547)
 
-Groundwater Modeling<br>
-Brigham Young University<br>
-Prof. Norm Jones
+## Groundwater Modeling
+
+**Brigham Young University**  
+*Prof. Norm Jones*
