@@ -22,6 +22,7 @@ nav:
     - Syllabus: resources/syllabus.md
     - GMS Software: resources/gms.md
     - Course Overview: resources/overview/intro_read.md
+    - Equation Sheet: resources/eq_sheet.md
   - Unit 1 - Modeling Fundamentals:
     - Groundwater Modeling Concepts:
         - Pre-Class: unit1/01_modeling/modeling_read.md
