@@ -35,6 +35,23 @@ Build a simple groundwater model representing this system. Input is from recharg
 
 ## Solution
 
-Solution file: [<u>docs.google.com/document</u>](https://docs.google.com/document/d/e/2PACX-1vRA8iCUnl_Z3I2wzm_OOOlONZyt2bDE98Lz6NERBA4mujVzegV6p_LuCyLeKcVagf7oNMXIdeawPJzh/pub)
+<details>
+<summary>Click here to see calculation details:</summary>
 
+<br>
+
+<strong>Recharge:</strong><br>
+• 20 inches of rain per year<br>
+• 15% reaches aquifer<br>
+• 20/12*0.15/365=0.0006849315 ft/day<br>
+
+<br>
+
+<strong>Well:</strong><br>
+• Permitted at 10 AFA (acre-ft/year)<br>
+• 10*43560/365 = 1193.4 ft^3/day<br>
+
+</details>
+
+<br>
 Video: [<u>www.youtube.com/watch?v=4sy4xoizQso</u>](https://www.youtube.com/watch?v=4sy4xoizQso)
