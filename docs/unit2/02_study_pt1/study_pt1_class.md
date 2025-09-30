@@ -44,20 +44,23 @@ In this exercise, we will revisit the agricultural drain model we built for our 
 
 Click [<u>here</u>](agdrains1.zip) to download a completed version of the previous model. Unzip the model and load it into GMS. Then do the following:
 
-1) Add a well in the interior.
->a) Use Q = -2000 ft^3/day<br>
->b) Use Q = -5000 ft^3/day
-
-2) Analyze the flow budget
+1) Analyze the flow budget
 >a) Select the cells on each side and change the zone budget id's. Use 2 on the left and 3 on the right.<br>
 >b) Look at the flow budget. What percentage of the water goes to the left drain vs. the right drain?<br>
 >c) Remove the well and re-run the model to get the original solution. Look at the flow budget again.
 
+2) Add a well in the interior.
+>a) Use Q = -2000 ft^3/day<br>
+>b) Use Q = -5000 ft^3/day
+
+Review the flow budget again. Note that the well is taking water from both drains. Consider what would happen if the well were located closer to one of the drains.
+
 3) Determine impact of using a 2D model
->a) Set the head contours to a fixed interval (1.0) and save a copy of the contours to a CAD layer.<br>
->b) Rebuild the model using a multi-layer grid (six layers). Assign head bc to top layer only and re-enter the inputs in the same order used in the first exercise. Let Kv=Kh for now.<br>
->c) Compare the contours. Is there a significant difference?<br>
->d) Has the flow budget changed?
+>a) Delete the well(s) added in the prior step.<br>
+>b) Set the head contours to a fixed interval (1.0) and save a copy of the contours to a CAD layer.<br>
+>c) Rebuild the model using a multi-layer grid (six layers). Assign head bc to top layer only and re-enter the inputs in the same order used in the first exercise. Let Kv=Kh for now.<br>
+>d) Compare the contours. Is there a significant difference?<br>
+>e) Has the flow budget changed?
 
 4) Determine impact of vertical anisotropy
 >a) Save another copy of head contours.<br>
