@@ -47,7 +47,6 @@ Click [<u>here</u>](agdrains1.zip) to download a completed version of the previo
 1) Analyze the flow budget
 >a) Select the cells on each side and change the zone budget id's. Use 2 on the left and 3 on the right.<br>
 >b) Look at the flow budget. What percentage of the water goes to the left drain vs. the right drain?<br>
->c) Remove the well and re-run the model to get the original solution. Look at the flow budget again.
 
 2) Add a well in the interior.
 >a) Use Q = -2000 ft^3/day<br>
