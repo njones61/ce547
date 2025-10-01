@@ -14,28 +14,30 @@ Then launch GMS and read in the project file (map.gpr) using the **File|Open** c
 
 Build your MODFLOW model using the following basic steps:
 
-1) Create a one layer grid of the proper X and Y dimensions and use 45 cells in the X direction and 50 cells in Y direction.
+1) Select the appropriate units (length = m, and time = d).
 
-2) Save your project to a new file name (use the Save As command) and save the model frequently during the exercise.
+2) Create a one layer grid of the proper X and Y dimensions and use 45 cells in the X direction and 50 cells in Y direction.
 
-3) Initialize your MODFLOW simulation.
->a) Select the appropriate units (length = m, and time = d).<br>
->b) Select the packages you wish to use.<br>
->c) Enter a top elevation of 400 m and a bottom elevation of 250 m.  For simplicity, we will assume that the top and bottom of the aquifer are relatively flat.
+3) Save your project to a new file name (use the Save As command) and save the model frequently during the exercise.
 
-4) Create a constant head boundary on the right side of the model = 317 m.
+4) Initialize your MODFLOW simulation.
+>a) Select the packages you wish to use.<br>
+>b) Enter a top elevation of 400 m and a bottom elevation of 250 m.  For simplicity, we will assume that the top and bottom of the aquifer are relatively flat.
 
-5) In the LPF package, use a convertible layer.  Enter a value of K = 0.1 m/d for the entire grid.
+5) Create a constant head boundary on the right side of the model = 317 m.
 
-6) Enter a recharge value of 0.00055 m/d for the entire grid.
+6) In the LPF package, use a convertible layer.  Enter a value of K = 0.1 m/d for the entire grid.
 
-7) Create a set of drains in the location of the agricultural drain.  Enter a conductance of 200 m^2/d and use a drain elevation = 317m.
+7) Enter a recharge value of 0.00055 m/d for the entire grid.
 
-8) Create two wells at the location shown.
+8) Create a set of drains in the location of the agricultural drain.  Enter a conductance of 200 m^2/d and use a drain elevation = 317m.<br>
+>_Note: To help you select the correct cells, change the cell edge style from solid to dashed._
+
+9) Create two wells at the location shown.
 >a) For well SR-3, enter a pumping rate of –300 m^3/d.<br>
 >b) For well SR-4, enter a pumping rate of –450 m^3/d.
 
-9) Check your model for errors and then save and run the simulation.
+10) Check your model for errors and then save and run the simulation.
 
 **Analysis**
 
