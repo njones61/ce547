@@ -11,3 +11,30 @@
   font-size: large;
 }
 
+/* Make tables responsive and wrap text */
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+.wy-table-responsive {
+    overflow-x: auto !important;
+    overflow-y: visible !important;
+}
+
+.wy-table-responsive table {
+    border-collapse: collapse !important;
+    table-layout: auto !important;
+    width: 100% !important;
+}
+
+/* Additional fallback for all tables */
+table td,
+table th {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
