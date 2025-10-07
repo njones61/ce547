@@ -463,6 +463,141 @@
     4. **Data Collection:** I would gather existing well logs to understand the aquifer thickness and material. I would collect historical pumping data for the existing wells (or estimate it based on crop water demand). River stage data would be needed from a nearby gauge. I would look for observation well data to see historical water level trends. Maps and aerial photos would define the geometry.
     5. **Model Design:** Using a GUI like GMS, I would construct a numerical grid covering the area. I would set the top and bottom elevations based on well logs. I would create the input files, assigning initial estimates for hydraulic conductivity and recharge. The river would be implemented with the RIV package, and the wells with the WEL package. The model would be ready for the first simulation run, leading into the calibration phase.
 
+### Workout Problems
+
+#### Problem 1: Groundwater Travel Time Analysis in an Agricultural Field
+
+**Scenario:**
+
+A single-layer MODFLOW model simulating an agricultural field utilized agricultural drains on the left and right boundaries. Based on the initial model run, the following parameters were established or calculated:
+
+1. Hydraulic Conductivity ($K$): $4 \text{ feet per day}$
+2. Flow Distance ($L$): $1000 \text{ feet}$ (representing the distance from the point of maximum head to the left drain). The total model length in the X direction was $2,000 \text{ feet}$
+3. Maximum Observed Head ($H_{max}$): $3825.4 \text{ feet}$ (observed near the middle of the domain)
+4. Specified Head at Left Drain ($H_{left}$): $3820 \text{ feet}$
+5. Effective Porosity ($n_e$): Assume the effective porosity of the aquifer material is $0.3$. (Note: Seepage velocity calculations require the effective porosity, as not all voids in the soil necessarily conduct flow)
+
+**Question:**
+
+Assuming steady-state, horizontal flow, calculate the estimated travel time (in days) for a parcel of water to move from the point of maximum head to the left agricultural drain.
+
+**Solution:**
+
+Travel time ($t$) is calculated using the distance ($L$) divided by the seepage velocity ($v_s$). The seepage velocity is derived from Darcy's law, specifically the relationship $v_s = v_d / n_e$, where $v_d$ is the Darcy velocity ($v_d = K i$) and $n_e$ is the effective porosity.
+
+1. **Calculate the Average Hydraulic Gradient ($i$):**
+
+   The hydraulic gradient ($i$) is the change in total head ($\Delta H$) over the length of the flow path ($\Delta L$). We use the head difference between the point of maximum head ($H_{max}$) and the left drain ($H_{left}$) across the given distance ($L$).
+
+>$i = \dfrac{\Delta H}{L} = \dfrac{H_{max} - H_{left}}{L} = \dfrac{3825.4 \text{ ft} - 3820 \text{ ft}}{1000 \text{ ft}} = \dfrac{5.4 \text{ ft}}{1000 \text{ ft}} = 0.0054$Sh
+
+2. **Calculate the Darcian Velocity ($v_d$):**
+
+   Using Darcy's Law:
+
+>$v_d = K \times i = 4 \text{ ft/day} \times 0.0054 = 0.0216 \text{ ft/day}$
+
+3. **Calculate the Seepage Velocity ($v_s$):**
+
+   The seepage velocity accounts for the effective porosity:
+
+>$v_s = \dfrac{v_d}{n_e} = \dfrac{0.0216 \text{ ft/day}}{0.3} = 0.072 \text{ ft/day}$
+
+4. **Calculate the Travel Time ($t$):**
+
+>$t = \dfrac{L}{v_s} = \dfrac{1000 \text{ ft}}{0.072 \text{ ft/day}} \approx 13889 \text{ days}$
+
+**Answer:** The estimated travel time for a parcel of water to move from the point of maximum head to the left agricultural drain is approximately **13,889 days** (or about **38 years**).
+
+---
+
+#### Problem 2: Equivalent Hydraulic Conductivity for Flow Parallel to Layering
+
+When water flows parallel to the layering (e.g., horizontal flow in a typically deposited aquifer system), the head loss (hydraulic gradient, $i$) is considered the same through each layer.
+
+**Scenario:**
+
+A regional groundwater model is being developed for an area underlain by a three-layer aquifer system. The layering is horizontal, and the primary flow direction is assumed to be horizontal (parallel to the layers). The properties of the individual hydrogeologic units ($H_i$ is thickness, $K_i$ is hydraulic conductivity) are defined below:
+
+| Layer | Thickness ($H_i$) | Hydraulic Conductivity ($K_i$) |
+|-------|-------------------|-------------------------------|
+| 1     | 10 feet           | 20 feet/day                   |
+| 2     | 15 feet           | 5 feet/day                    |
+| 3     | 5 feet            | 0.1 feet/day                  |
+
+**Question:**
+
+Calculate the equivalent horizontal hydraulic conductivity ($K_H$ or $K_{eq}$) for this layered system, allowing the entire 30-foot thickness to be treated as a single hydrogeologic unit for horizontal flow calculations using Darcy's law.
+
+**Solution:**
+
+The equivalent hydraulic conductivity ($K_{eq}$) for flow parallel to the layering is found by summing the product of the individual layer conductivities and thicknesses, then dividing by the total thickness ($\sum H_i$):
+
+>$K_{eq} = \dfrac{\sum_{i} K_i H_i}{\sum_{i} H_i}$
+
+1. **Calculate Total Thickness ($\sum H_i$):**
+
+>$H_{total} = 10 \text{ ft} + 15 \text{ ft} + 5 \text{ ft} = 30 \text{ ft}$
+
+2. **Calculate the Summation of $K_i H_i$ (Transmissivity Contribution):**
+
+>$\sum K_i H_i = (20 \text{ ft/day} \times 10 \text{ ft}) + (5 \text{ ft/day} \times 15 \text{ ft}) + (0.1 \text{ ft/day} \times 5 \text{ ft})$
+
+>$\sum K_i H_i = 200 \text{ ft}^2/\text{day} + 75 \text{ ft}^2/\text{day} + 0.5 \text{ ft}^2/\text{day} = 275.5 \text{ ft}^2/\text{day}$
+
+3. **Calculate Equivalent Hydraulic Conductivity ($K_H$):**
+
+>$K_{H} = \dfrac{275.5 \text{ ft}^2/\text{day}}{30 \text{ ft}} \approx 9.183 \text{ ft/day}$
+
+**Answer:** The equivalent horizontal hydraulic conductivity ($K_H$) for the layered system is $9.18 \text{ feet per day}$.
+
+---
+
+#### Problem 3: Equivalent Hydraulic Conductivity for Flow Perpendicular to Layering
+
+When water flows perpendicular to the layering (e.g., vertical flow through layers due to upward pressure), the flow rate ($Q$) must be the same through each layer because the water must pass through all units sequentially.
+
+**Scenario:**
+
+Using the same three-layer system from Problem 2, calculate the equivalent vertical hydraulic conductivity ($K_V$ or $K_{eq}$).
+
+| Layer | Thickness ($H_i$) | Hydraulic Conductivity ($K_i$) |
+|-------|-------------------|-------------------------------|
+| 1     | 10 feet           | 20 feet/day                   |
+| 2     | 15 feet           | 5 feet/day                    |
+| 3     | 5 feet            | 0.1 feet/day                  |
+
+**Question:**
+
+Calculate the equivalent vertical hydraulic conductivity ($K_V$) for the 30-foot layered system.
+
+**Solution:**
+
+The equivalent hydraulic conductivity ($K_{eq}$) for flow perpendicular to the layering is defined by the total height divided by the sum of the ratio of individual layer thickness ($H_i$) to its conductivity ($K_i$):
+
+>$K_{eq} = \dfrac{\sum_{i} H_i}{\sum_{i} \dfrac{H_i}{K_i}}$
+
+1. **Calculate Total Thickness ($\sum H_i$):**
+
+>$H_{total} = 30 \text{ ft}$
+
+2. **Calculate the Summation of the Resistance Terms ($\sum H_i / K_i$):**
+
+   The term $H_i/K_i$ represents the resistance offered by each layer.
+
+>$\sum \dfrac{H_i}{K_i} = \dfrac{10 \text{ ft}}{20 \text{ ft/day}} + \dfrac{15 \text{ ft}}{5 \text{ ft/day}} + \dfrac{5 \text{ ft}}{0.1 \text{ ft/day}}$
+
+>$\sum \dfrac{H_i}{K_i} = 0.5 \text{ days} + 3.0 \text{ days} + 50.0 \text{ days} = 53.5 \text{ days}$
+
+3. **Calculate Equivalent Hydraulic Conductivity ($K_V$):**
+
+>$K_{V} = \dfrac{30 \text{ ft}}{53.5 \text{ days}} \approx 0.561 \text{ ft/day}$
+
+**Answer:** The equivalent vertical hydraulic conductivity ($K_V$) for the layered system is $0.56 \text{ feet per day}$.
+
+**Insight:** Note that the vertical equivalent conductivity ($K_V \approx 0.56 \text{ ft/day}$) is significantly lower than the horizontal equivalent conductivity ($K_H \approx 9.18 \text{ ft/day}$). This difference reflects that the flow is much more restricted by the lowest permeability layer (Layer 3, $K_3 = 0.1 \text{ ft/day}$) when the flow is vertical. This illustrates the principle of anisotropy commonly seen in layered systems, where hydraulic conductivity in the horizontal direction is often greater than in the vertical direction.
+
+
 ## Glossary of Key Terms
 
 | Term | Definition |
