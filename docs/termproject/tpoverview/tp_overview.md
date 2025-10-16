@@ -2,6 +2,8 @@
 
 The term project will involve building a groundwater model of the Woburn site described in the book A Civil Action. We will divide the class into eight groups. Each group will build a MODFLOW model of the site and perform a particle tracking analysis. Two groups will represent Beatrice, two groups will represent the plaintiffs against Beatrice, two groups will represent W.R. Grace, and the final two groups will represent the plaintiffs against W.R. Grace. We will focus on one primary issue: flow paths and travel times. Using MODFLOW and MODPATH each group will attempt to prove or disprove that the hydraulic conditions were such that any TCE dumped at the sites could have reached the municipal water wells within the target time frame. At the end of the semester, each group will submit a written report and we will spend three days making presentations and debating the merits of each model.
 
+Background slides: [woburn.pptx](woburn.pptx)
+
 ## Time Issues
 
 The main focus of this project is to address the travel time issue. Using your model, you should be answering the question of whether or not TCE could have traveled from the W.R. Grace or Beatrice facility to wells G&H within the time frame addressed by the court trial. Consider the following comment regarding the jury instructions from Judge Skinner:
