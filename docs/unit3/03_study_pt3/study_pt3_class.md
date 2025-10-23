@@ -8,13 +8,15 @@ We will build this model using a set of 4 tutorials. In this exercise, we will c
 
 1) Go to the Aquaveo tutorial website:
 
->[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
+>[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](http://www.aquaveo.com/software/gms-learning-tutorials){target="_blank"}
 
-2) Download and unzip the zip archive associated with the **Conceptual Model Approach 1** tutorial exercise.
+2) Click on the MODFLOW tab. 
 
-3) Download and open the PDF file associated with the **Conceptual Model Approach 1** tutorial exercise.
+3) Download and unzip the zip archive associated with the **Conceptual Model Approach 1** tutorial exercise.
 
-4) Follow the instructions to complete the tutorial.
+4) Download and open the PDF file associated with the **Conceptual Model Approach 1** tutorial exercise.
+
+5) Follow the instructions to complete the tutorial.
 
 ## Solution
 
@@ -30,13 +32,15 @@ To build the model, do the following:
 
 1) Go to the Aquaveo tutorial website:
 
->[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](https://byu-ce547.readthedocs.io/en/latest/unit3/03_study_pt3/learning-tutorials.htm)
+>[<u>http://www.aquaveo.com/software/gms-learning-tutorials</u>](http://www.aquaveo.com/software/gms-learning-tutorials){target="_blank"}
 
-2) Download and unzip the zip archive associated with the **Conceptual Model Approach 2** tutorial exercise.
+2) Click on the MODFLOW tab.
 
-3) Download and open the PDF file associated with the **Conceptual Model Approach 2** tutorial exercise.
+3) Download and unzip the zip archive associated with the **Conceptual Model Approach 2** tutorial exercise.
 
-4) Follow the instructions to complete the tutorial.
+4) Download and open the PDF file associated with the **Conceptual Model Approach 2** tutorial exercise.
+
+5) Follow the instructions to complete the tutorial.
 
 ## Solution
 
