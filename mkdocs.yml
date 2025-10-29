@@ -96,9 +96,9 @@ nav:
         - In-Class: unit3/09_stochastic/stochastic_class.md
         - Homework: unit3/09_stochastic/stochastic_hw.md
     - Transient MODFLOW Simulations:
-        - Pre-Class: unit3/10_simulations/simulations_read.md
-        - In-Class: unit3/10_simulations/simulations_class.md
-        - Homework: unit3/10_simulations/simulations_hw.md
+        - Pre-Class: unit3/10_transient/transient_read.md
+        - In-Class: unit3/10_transient/transient_class.md
+        - Homework: unit3/10_transient/transient_hw.md
     - Groundwater Sustainability Analysis:
         - Pre-Class: unit3/11_sustainability/sustainability_read.md
         - Homework: unit3/11_sustainability/sustainability_hw.md
