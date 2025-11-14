@@ -20,15 +20,7 @@ The [Woburn Hydrogeology Data](https://woburn.readthedocs.io/en/latest/){target=
 
 The teams will be divided as shown in the following table. The group ids are shown in parentheses.
 
-| W.R. Grace (1)   | 	Plaintiffs vs. Grace (2)        |
-|:-----------------|:---------------------------------|
-|                  |                                  |
-|                  |                                  |
-|                  |                                  |
-| **Beatrice (3)** | 	**Plaintiffs vs. Beatrice (4)** |
-|                  |                                  |
-|                  |                                  |
-|                  |                                  |
+![ce547_teams.png](ce547_teams.png)
 
 In terms of team management, I expect you to do the following:
 
