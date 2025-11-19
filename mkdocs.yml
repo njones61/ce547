@@ -99,13 +99,15 @@ nav:
         - Pre-Class: unit3/10_transient/transient_read.md
         - In-Class: unit3/10_transient/transient_class.md
         - Homework: unit3/10_transient/transient_hw.md
-    - Groundwater Sustainability Analysis:
-        - Pre-Class: unit3/11_sustainability/sustainability_read.md
-        - Homework: unit3/11_sustainability/sustainability_hw.md
     - Boundary Condition Analysis:
-        - Pre-Class: unit3/12_boundary_condition/boundary_condition_read.md
-        - In-Class: unit3/12_boundary_condition/boundary_condition_class.md
-        - Homework: unit3/12_boundary_condition/boundary_condition_hw.md
+        - Pre-Class: unit3/11_boundary_condition/boundary_condition_read.md
+        - In-Class: unit3/11_boundary_condition/boundary_condition_class.md
+        - Homework: unit3/11_boundary_condition/boundary_condition_hw.md
+    - FloPy Python Package:
+        - In-Class: unit3/12_flopy/flopy_class.md
+    - Groundwater Sustainability Analysis:
+        - Pre-Class: unit3/13_sustainability/sustainability_read.md
+        - Homework: unit3/13_sustainability/sustainability_hw.md
   - Term Project:
     - Overview: termproject/tpoverview/tp_overview.md
     - Case Study 1: termproject/casestudy1/case_study_1.md
