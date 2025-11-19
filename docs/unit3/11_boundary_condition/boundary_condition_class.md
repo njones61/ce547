@@ -31,7 +31,7 @@ Do the following:
 
 8) Bring up the flow budget dialog and determine how much water is going out the right side (-5538).
 
-9) Double-click on the main coverage in the map module and add **Specified Flow** as an attribute.
+9) Double-click on the main coverage in the map module and add **Specified Flow** as an attribute. This creates a set of pseudo-wells along the boundary to force a specified discharge of water along the boundary. 
 
 10) Double-click on the arc on the right boundary of the model and change it to specified flow at the rate you determined.
 
@@ -44,6 +44,8 @@ Do the following:
 13) Decrease the hydraulic conductivity by a factor of **10** (set K=1). Save the model as **plant2_HFK1.gpr** and re-run the model.
 
 14) Now look at the heads, observation wells, and model error. What has changed?
+
+**Note**: If you somehow knew (or estimated) the discharge on the boundary, you could now iteratively change the K in the model until the heads matched the observations. In this case that would happen when K=10. 
 
 ## Solution
 
