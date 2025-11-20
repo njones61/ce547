@@ -104,6 +104,7 @@ nav:
         - In-Class: unit3/11_boundary_condition/boundary_condition_class.md
         - Homework: unit3/11_boundary_condition/boundary_condition_hw.md
     - FloPy Python Package:
+        - Pre-Class: unit3/12_flopy/flopy_read.md
         - In-Class: unit3/12_flopy/flopy_class.md
     - Groundwater Sustainability Analysis:
         - Pre-Class: unit3/13_sustainability/sustainability_read.md
