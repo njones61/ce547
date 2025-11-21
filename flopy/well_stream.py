@@ -613,7 +613,7 @@ if success_transient:
 # Animation Functions
 ########################################################
 
-def animate_head_map(headobj, model, output_gif='head_animation.gif', fps=5):
+def animate_head_map(headobj, model, output_gif='head_animation.gif', fps=5, interval=5):
     """
     Create an animated GIF showing the evolution of head over time.
     
@@ -625,6 +625,8 @@ def animate_head_map(headobj, model, output_gif='head_animation.gif', fps=5):
         Output filename for the GIF
     fps : int
         Frames per second for the animation
+    interval : int
+        Only generate frames for every nth time step (default: 5)
     """
     try:
         import imageio.v2 as imageio
@@ -633,13 +635,19 @@ def animate_head_map(headobj, model, output_gif='head_animation.gif', fps=5):
         return
     
     # Get all available times
-    times = headobj.get_times()
+    times_all = headobj.get_times()
+    
+    # Filter times based on interval (every nth time step)
+    times = times_all[::interval]
+    
+    print(f"Total time steps available: {len(times_all)}")
+    print(f"Generating frames for every {interval} time step(s): {len(times)} frames")
     
     # First, find the global min and max head values across all time steps
     print("Calculating global head range across all time steps...")
     head_min_global = np.inf
     head_max_global = -np.inf
-    for time in times:
+    for time in times_all:
         head = headobj.get_data(totim=time)
         head_min_global = min(head_min_global, head.min())
         head_max_global = max(head_max_global, head.max())
@@ -647,8 +655,8 @@ def animate_head_map(headobj, model, output_gif='head_animation.gif', fps=5):
     print(f"Global head range: {head_min_global:.2f} to {head_max_global:.2f} ft")
     
     # Set up contour levels based on global range
-    interval = 2.0
-    levels_global = np.arange(np.floor(head_min_global), np.ceil(head_max_global) + interval, interval)
+    contour_interval = 2.0
+    levels_global = np.arange(np.floor(head_min_global), np.ceil(head_max_global) + contour_interval, contour_interval)
     
     # Create temporary directory for frames
     temp_dir = os.path.join(model_ws, 'animation_frames')
@@ -708,7 +716,7 @@ def animate_head_map(headobj, model, output_gif='head_animation.gif', fps=5):
     
     print(f"Animation saved to: {output_gif}")
 
-def animate_cross_section(model, headobj, row, output_gif='cross_section_animation.gif', fps=5, head_initial=None):
+def animate_cross_section(model, headobj, row, output_gif='cross_section_animation.gif', fps=5, head_initial=None, interval=5):
     """
     Create an animated GIF showing the evolution of head in a cross-section over time.
     
@@ -726,6 +734,8 @@ def animate_cross_section(model, headobj, row, output_gif='cross_section_animati
         Frames per second for the animation
     head_initial : numpy array, optional
         Initial head array (pre-development conditions) to plot as reference line
+    interval : int
+        Only generate frames for every nth time step (default: 5)
     """
     try:
         import imageio.v2 as imageio
@@ -734,7 +744,13 @@ def animate_cross_section(model, headobj, row, output_gif='cross_section_animati
         return
     
     # Get all available times
-    times = headobj.get_times()
+    times_all = headobj.get_times()
+    
+    # Filter times based on interval (every nth time step)
+    times = times_all[::interval]
+    
+    print(f"Total time steps available: {len(times_all)}")
+    print(f"Generating frames for every {interval} time step(s): {len(times)} frames")
     
     # Create temporary directory for frames
     temp_dir = os.path.join(model_ws, 'animation_frames')
