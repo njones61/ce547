@@ -60,3 +60,73 @@ Single stress period with 200 time steps (10 days per time step)<br>
 Specific yield = 0.15
 
 We will generated animated gifs showing the evolution of the cone of depression of the well over time. We will also perform a flow budget analysis and plot the rate of storage change and the rate of stream discharge vs. time. 
+
+## Part 2 - Big Lake Model
+
+In this exercise, we will import a MODFLOW model from a GMS file and run it using the flopy package. We will examine the 
+output of the model and examine the effect of changing the model parameters.
+
+Before we can import the model, there are some things we have to do with the model files. When you save a MODFLOW 
+model from GMS, its saves a GMS project file (*.gpr) and then the MODFLOW files are saved to a subfolder within the 
+project folder. For example, if you save a model named "my_model" to the folder "C:\my_project", GMS will save teh 
+project file and MODFLOW files as:
+
+```
+C:\my_project\my_model.gpr
+C:\my_project\my_model_MODFLOW\
+```
+Then the *_MODFLOW folder contains the MODFLOW files. Some of these files are text files that contain information 
+about the model, while others are binary files that contain the model data. When GMS writes the MODFLOW files, it 
+uses a special binary format (HDF5) to save array data. This format is much more efficient than the text format 
+used by MODFLOW. However, flopy does not support reading HDF5 files. Therefore, before we can import the model, we 
+have to convert the MODFLOW files to native text files. To do this, we select the MODFLOW|Global menu command to 
+bring up the Global Options dialog box. Then we select the following checkbox:
+
+![gms_native1.png](images/gms_native1.png)
+
+Thenext time we save a MODFLOW model from GMS, it will save the MODFLOW files in native text format. These files 
+will be saved in a parallel subfolder as follows:
+
+![gms_native2.png](images/gms_native2.png)
+
+This set of files can be imported into flopy using the flopy.modflow.Modflow.load method.
+
+There is one other change you need to make. One of the MODFLOW input files is called the "name file" and it contains 
+a list of all of the other MODFLOW input files. Here is an example of the name file for the Big Lake model:
+
+```aiignore
+GLOBAL              701       biglake.glo     #  1. Ftype Nunit Fname [Option]
+LIST                702       biglake.out     #  1. Ftype Nunit Fname [Option]
+DATA(BINARY)        730       biglake.hed     #  1. Ftype Nunit Fname [Option]
+DATA(BINARY)        740       biglake.ccf     #  1. Ftype Nunit Fname [Option]
+LMT6                718       biglake.lmt6    #  1. Ftype Nunit Fname [Option]
+OBS                 750       biglake.obs     #  1. Ftype Nunit Fname [Option]
+RVOB                752       biglake.rvob    #  1. Ftype Nunit Fname [Option]
+GBOB                753       biglake.gbob    #  1. Ftype Nunit Fname [Option]
+DIS                 719       biglake.dis     #  1. Ftype Nunit Fname [Option]
+BAS6                703       biglake.ba6     #  1. Ftype Nunit Fname [Option]
+LPF                 704       biglake.lpf     #  1. Ftype Nunit Fname [Option]
+OC                  715       biglake.oc      #  1. Ftype Nunit Fname [Option]
+RCH                 716       biglake.rch     #  1. Ftype Nunit Fname [Option]
+RIV                 708       biglake.riv     #  1. Ftype Nunit Fname [Option]
+WEL                 709       biglake.wel     #  1. Ftype Nunit Fname [Option]
+GHB                 711       biglake.ghb     #  1. Ftype Nunit Fname [Option]
+PCG                 714       biglake.pcg     #  1. Ftype Nunit Fname [Option]
+```
+
+When MODFLOW reads the name file, it reads each line and extracts the file name from the line. It then uses the file 
+name to find the corresponding MODFLOW input file. 
+
+When you export a MODFLOW model from GMS, it saves the name file with the MODFLOW files with the extension "*.mfn". 
+When 
+you import the model into flopy and then run it, it expects the name file to have the extension "*.nam". Thus, you 
+have to rename the name file to "*.nam" before you import the model to FloPy. The following zip archive contains the 
+Big Lake model with the name file renamed to "*.nam".
+
+Click here to download the Big Lake model in the native format: [big_lake.zip](files/big_lake.zip)
+
+### 2a. Upload and run the model
+
+Run the first few cells to install the required packages and upload the biglake.zip file. Then upload the model and 
+view the model inputs and summary. Then run the model and examine the output.
+

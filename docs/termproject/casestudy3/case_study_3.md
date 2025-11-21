@@ -106,7 +106,7 @@ Before we do the interpolation, we need to create some scatter points. We will f
 
 >>1) Create a new 2D scatter point set and give it a name ("**screen-elevs**" for example).
 
->>2) Right-click on the data set created for the new scatter point set and select the **Duplicate** command.
+>>2) Right-click on the data set (it should be called "data" is located underneath the screen-elevs scatter point set) created for the new scatter point set and select the **Duplicate** command.
 
 >>3) Rename the two data sets to something more meaningful ("**bot1**" and "**bot2**" for example).
 

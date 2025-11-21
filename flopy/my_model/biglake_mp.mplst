@@ -191,8 +191,6 @@ Processing Time Step     1 Period     1.  Time =  1.00000E+00                   
       IFACE values will be read from a compact budget list.
  Reading  HEAD DEP BOUNDS for Period    1   Time Step    1
       IFACE values will be read from a compact budget list.
-FACE 1 OF (J,I,K) =   27,  59,   1 IS NOT A BOUNDARY FACE.  HEAD DEP BOUNDS FLOW TREATED AS SOURCE/SINK TERM
-FACE 2 OF (J,I,K) =   35,  56,   1 IS NOT A BOUNDARY FACE.  HEAD DEP BOUNDS FLOW TREATED AS SOURCE/SINK TERM
  Reading         RECHARGE for Period    1   Time Step    1
 
 Particle summary:
