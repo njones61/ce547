@@ -1,0 +1,5 @@
+ Open sim file; read NAME and LIST file names                                                                                        
+ Open the NAME file and read the number of grids                                                                                     
+ Process the input data for each grid                                                                                                
+ Read MODPATH simulation file and prepare simulation data                                                                            
+ INVALID STARTING LOCATIONS FILE FORMAT OPTION.

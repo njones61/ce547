@@ -1,0 +1,6 @@
+#
+    3   740 AUX IFACE AUX QFACT AUX CELLGRP                    #  2. MXACTW IWELCB [Option]
+    3     0                                                    #  5. ITMP NP          Stress Period   1
+    1    35    34      -4000.0     0           1.0     1       #  6. Layer Row Column Q [xyz]
+    1    28    65      -3000.0     0           1.0     2       #  6. Layer Row Column Q [xyz]
+    1    68    88      -2500.0     0           1.0     3       #  6. Layer Row Column Q [xyz]
