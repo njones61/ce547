@@ -64,7 +64,10 @@ We will generated animated gifs showing the evolution of the cone of depression 
 ## Part 2 - Big Lake Model
 
 In this exercise, we will import a MODFLOW model from a GMS file and run it using the flopy package. We will examine the 
-output of the model and examine the effect of changing the model parameters.
+output of the model and examine the effect of changing the model parameters. We will be using a copy of the Big Lake 
+model that we created earlier this semester [here](../02_regional_models/regional_models_class.md).
+
+![biglakemap.png](../02_regional_models/biglakemap.png){width="600"}
 
 Before we can import the model, there are some things we have to do with the model files. When you save a MODFLOW 
 model from GMS, its saves a GMS project file (*.gpr) and then the MODFLOW files are saved to a subfolder within the 
@@ -89,7 +92,7 @@ will be saved in a parallel subfolder as follows:
 
 ![gms_native2.png](images/gms_native2.png)
 
-This set of files can be imported into flopy using the flopy.modflow.Modflow.load method.
+This set of files can be imported into flopy using the `flopy.modflow.Modflow.load` method.
 
 There is one other change you need to make. One of the MODFLOW input files is called the "name file" and it contains 
 a list of all of the other MODFLOW input files. Here is an example of the name file for the Big Lake model:
@@ -117,16 +120,32 @@ PCG                 714       biglake.pcg     #  1. Ftype Nunit Fname [Option]
 When MODFLOW reads the name file, it reads each line and extracts the file name from the line. It then uses the file 
 name to find the corresponding MODFLOW input file. 
 
-When you export a MODFLOW model from GMS, it saves the name file with the MODFLOW files with the extension "*.mfn". 
-When 
-you import the model into flopy and then run it, it expects the name file to have the extension "*.nam". Thus, you 
-have to rename the name file to "*.nam" before you import the model to FloPy. The following zip archive contains the 
-Big Lake model with the name file renamed to "*.nam".
+When you export a MODFLOW model from GMS, it saves the name file with the MODFLOW files with the extension "**\*.mfn**". 
+ When you import the model into flopy and then run it, it expects the name file to have the extension "**\*.nam**". Thus, 
+you have to rename the name file to "**\*.nam**" before you import the model to FloPy. The following zip archive 
+contains the 
+Big Lake model with the name file renamed to "**\*.nam**".
 
 Click here to download the Big Lake model in the native format: [big_lake.zip](files/big_lake.zip)
+
+Colab Notebook solution: <a href="https://colab.research.google.com/github/njones61/ce547/blob/main/docs/unit3/12_flopy/biglake.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ### 2a. Upload and run the model
 
 Run the first few cells to install the required packages and upload the biglake.zip file. Then upload the model and 
 view the model inputs and summary. Then run the model and examine the output.
+
+### 2b. Particle Tracking Analysis
+
+In this section will create a set of particles starting at the wells and then track backward in time for a specified 
+period of time to delineate capture zones.
+
+### 2c. Flow Budget Analysis
+
+In this section we will examine the flow budget for the model.
+
+### 2d. GHB Conductance Sensitivity Analysis
+
+The biglake model includes a lake that is simulated with the GHB package. In this section we will examine the effect 
+of changing the GHB conductance on the amount of water leaking from the lake into the aquifer.
 
