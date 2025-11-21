@@ -23,9 +23,7 @@ total amount of water removed from storage in the time it takes for the system t
 
 You can download a solution to this exercise in GMS/MODFLOW format here: [well_stream.zip](files/well_stream.zip)
 
-Click here to open a Google Colab notebook with the FloPy solution the problem:
-
-
+Colab Notebook solution: <a href="https://colab.research.google.com/github/njones61/ce547/blob/main/docs/unit3/12_flopy/well_stream.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ### 1a. Pre-development model.
 
