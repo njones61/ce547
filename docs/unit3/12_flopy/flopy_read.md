@@ -4,6 +4,9 @@
 
 FloPy is a Python package designed for creating, running, and post-processing MODFLOW-based groundwater models. It provides a comprehensive Python interface to work with multiple versions of MODFLOW and related groundwater modeling programs. The package enables users to programmatically build, modify, and analyze groundwater flow models while leveraging the power of Python's scientific computing ecosystem.
 
+The FloPy package is open-source and available on GitHub: [https://github.com/modflowpy/flopy](https://github.com/modflowpy/flopy){target=_blank}.<br>
+The documentation for FloPy is available at [https://flopy.readthedocs.io/en/stable/index.html](https://flopy.readthedocs.io/en/stable/index.html){target=_blank}.
+
 FloPy supports several MODFLOW versions including:<br>
 - MODFLOW 6<br>
 - MODFLOW-2005<br>
