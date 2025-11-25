@@ -21,7 +21,7 @@ We will use the flopy package to build this model and anlyze the evolution of th
 how much water is drawn from the aquifer and how much is pulled from the stream vs time. We will also examine the 
 total amount of water removed from storage in the time it takes for the system to equilibrate.
 
-You can download a solution to this exercise in GMS/MODFLOW format here: [well_stream.zip](files/well_stream.zip)
+You can download a solution to this exercise in GMS/MODFLOW format here: [well_stream.zip](./files/well_stream.zip)
 
 Colab Notebook solution: <a href="https://colab.research.google.com/github/njones61/ce547/blob/main/docs/unit3/12_flopy/well_stream.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
@@ -126,7 +126,7 @@ you have to rename the name file to "**\*.nam**" before you import the model to 
 contains the 
 Big Lake model with the name file renamed to "**\*.nam**".
 
-Click here to download the Big Lake model in the native format: [big_lake.zip](files/big_lake.zip)
+Click here to download the Big Lake model in the native format: [biglake.zip](./files/biglake.zip)
 
 Colab Notebook solution: <a href="https://colab.research.google.com/github/njones61/ce547/blob/main/docs/unit3/12_flopy/biglake.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
