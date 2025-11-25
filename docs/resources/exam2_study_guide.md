@@ -1,5 +1,7 @@
 # Exam 2 Study Guide
 
+This exam (and study guide) covers everything from **2D Geostatistics** to the **Pilot Point Method** lecture.
+
 ## Outline of Main Concepts
 
 ### 1. 2D Geostatistics - Interpolating Layer Elevations

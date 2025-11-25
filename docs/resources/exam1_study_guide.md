@@ -1,5 +1,7 @@
 # Exam 1 Study Guide
 
+This exam (and study guide) covers everything from the beginning of the course to the **MODFLOW Overview** topic (MODFLOW Case Studies, Part 2 Lecture).
+
 ## Outline of Main Concepts
 
 ### 1. Fundamentals of Groundwater Modeling
