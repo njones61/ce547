@@ -109,6 +109,7 @@ nav:
         - In-Class: unit3/12_flopy/flopy_class.md
     - Groundwater Sustainability Analysis:
         - Pre-Class: unit3/13_sustainability/sustainability_read.md
+        - In-Class: unit3/13_sustainability/sustainability_class.md
         - Homework: unit3/13_sustainability/sustainability_hw.md
   - Term Project:
     - Overview: termproject/tpoverview/tp_overview.md
