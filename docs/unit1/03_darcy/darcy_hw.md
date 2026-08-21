@@ -29,3 +29,8 @@ b) How long would it take (in days) to pump five pore volumes of water through t
 '
 Save your work in a file named `darcy_hw.xlsx` and upload it to Learning Suite.
 
+!!! note "Do not put your name or NetID in the file"
+    Learning Suite records who submitted each file, so your name is not needed
+    inside the file itself. Leaving it out means your work can be graded
+    anonymously, which keeps grading fair. This applies to scans and photos
+    too — please don't write your name on the page.

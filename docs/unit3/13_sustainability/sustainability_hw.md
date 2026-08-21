@@ -134,3 +134,8 @@ Compare the total transitional storage required by the two cases. Why is the cas
 
 Create a single zip archive that includes all of your simulation files (wbm_et, wbm_case1, wbm_case2) and the wbm_calcs.xlsx file. For the GMS simulations, be sure to include the MODFLOW files in the subdirectories. To be safe, zip up EVERYTHING in the folder. Name your zip folder `sustainability_hw.zip` and upload it on Learning Suite.
 
+!!! note "Do not put your name or NetID in the file"
+    Learning Suite records who submitted each file, so your name is not needed
+    inside the file itself. Leaving it out means your work can be graded
+    anonymously, which keeps grading fair. This applies to scans and photos
+    too — please don't write your name on the page.

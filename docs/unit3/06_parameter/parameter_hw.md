@@ -36,3 +36,8 @@ Create a Word document named results.doc to discuss your results for items 5-6.
 
 Save the GMS project with the completed solution. Zip up all files associated with the project, **including the Word document.** Name your zip folder `parameter_hw.zip` and upload it to Learning Suite.
 
+!!! note "Do not put your name or NetID in the file"
+    Learning Suite records who submitted each file, so your name is not needed
+    inside the file itself. Leaving it out means your work can be graded
+    anonymously, which keeps grading fair. This applies to scans and photos
+    too — please don't write your name on the page.

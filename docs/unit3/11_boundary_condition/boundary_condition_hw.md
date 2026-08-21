@@ -10,3 +10,8 @@ This assignment will be worth **10 points.**
 
 You do not need to submit anything to the TA or Learning Suite for this assignment.  I can login and look at a list of who has completed the evaluation (it does not list your answer, just whether or not you have completed the evaluation).  I will just look at this list to determine who should get credit for the assignment. 
 
+!!! note "Do not put your name or NetID in the file"
+    Learning Suite records who submitted each file, so your name is not needed
+    inside the file itself. Leaving it out means your work can be graded
+    anonymously, which keeps grading fair. This applies to scans and photos
+    too — please don't write your name on the page.

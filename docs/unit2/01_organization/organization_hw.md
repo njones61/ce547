@@ -23,3 +23,8 @@ e. Did your changes cause the water level in the region surrounding the drains t
 
 Make a screenshot of your grid to show that you completed part 1 and paste it into an empty Word document. Then enter your answers for part 2 (model analysis) in the document below the screenshot. Name your file `organization_hw.docx` or `organization_hw.pdf` and upload it to Learning Suite.
 
+!!! note "Do not put your name or NetID in the file"
+    Learning Suite records who submitted each file, so your name is not needed
+    inside the file itself. Leaving it out means your work can be graded
+    anonymously, which keeps grading fair. This applies to scans and photos
+    too — please don't write your name on the page.
