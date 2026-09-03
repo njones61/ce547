@@ -58,10 +58,23 @@ Before zipping your solution for uploading, you will need to delete the text out
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `stochastic_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                | Points |
+|-------------------------------------------------------------------------|:------:|
+| Run option set to stochastic                                            |   2    |
+| Randomize option turned on for all three parameters                     |   4    |
+| Latin Hypercube sampling with four, four, and three segments            |   5    |
+| Standard deviations of 0.15 for the K parameters and 0.075 for recharge |   5    |
+| Project saved as texmod_stoch.gpr and the stochastic run completed      |   4    |
+| Probabilistic capture zone analysis run with the specified settings     |   8    |
+| Text output files removed before zipping the project                    |   2    |

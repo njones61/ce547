@@ -29,10 +29,25 @@ d. Assuming an effective porosity of 0.35 for the upper sediments and 0.25 for t
 
 ## Submission
 
-Save your work in a file named `darcy_layered_hw.xlsx` and upload it to Learning Suite.
+Upload your work to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                            | Points |
+|---------------------------------------------------------------------|:------:|
+| Problem 1: Equivalent horizontal and vertical K for the model layer |   4    |
+| Problem 2a: Head loss through each of the three units               |   3    |
+| Problem 2b: Total head at the center of each unit                   |   3    |
+| Problem 2c: Water rise above the piezometer screen                  |   3    |
+| Problem 3a: Equivalent vertical K of the two sediment layers        |   3    |
+| Problem 3b: Hydraulic conductivity of the upper sediments           |   3    |
+| Problem 3c: Percentage of head loss in the lower sediments          |   3    |
+| Problem 3d: Average travel time from the lake to the aquifer        |   3    |
+| Documentation and work shown clearly                                |   5    |

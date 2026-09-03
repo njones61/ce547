@@ -65,10 +65,26 @@ Then do the following:
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `regional_models_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                | Points |
+|-------------------------------------------------------------------------|:------:|
+| Conceptual model object and boundary coverage created                   |   3    |
+| Specified head arcs marked with the correct head values                 |   3    |
+| Drain arcs with computed conductance and correct drain elevations       |   4    |
+| General head polygon for the pond with correct stage and conductance    |   4    |
+| Wells placed at the correct locations with pumping rates and refinement |   3    |
+| Fault barrier arc with the correct hydraulic characteristic             |   2    |
+| Aquifer coverage with K, top, and bottom elevations                     |   3    |
+| Recharge coverage with the correct recharge rate                        |   2    |
+| Grid frame and 3D grid created                                          |   2    |
+| Conceptual model mapped to MODFLOW and simulation runs successfully     |   4    |

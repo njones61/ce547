@@ -38,10 +38,22 @@ You will need to unzip the files after you download them. Then do the following:
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `pilot_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                 | Points |
+|--------------------------------------------------------------------------|:------:|
+| Pilot point scatter set created with reasonable placement (30-50 points) |   8    |
+| Key values entered for the three parameters and mapped to MODFLOW        |   5    |
+| Run mode set to parameter estimation                                     |   2    |
+| Kh in layer 1 tied to the pilot point set with log interpolation         |   6    |
+| Reasonable starting values and min/max limits with log transform enabled |   5    |
+| Model runs and produces a calibrated solution                            |   4    |

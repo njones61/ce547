@@ -43,12 +43,11 @@ There will be two midterm exams and a final exam. The final exam will be compreh
 
 ## Homework
 
-The homework is essential to reinforce the topics covered in class. The homework will also prepare you for the exams. Since we do not have a TA for the class, we will grade the homework together at the beginning of class in the class period immediately following when an assignment is due. You don't need to upload your completed assignment until after we have graded it, so technically it is not due until that time. However, you should have the assignment completed before class so we can grade it together. I will show you the solution to the homework and you will grade your own work using the 
-3-pt rubric provided at the end of each assignment. You will then upload your completed assignment to Learning Suite 
-and enter your grade in the "Submission notes" section for the assignment on Learning Suite. 
+The homework is essential to reinforce the topics covered in class. The homework will also prepare you for the exams. Our TA, Amin Aghababei, will grade the assignments. Upload your completed assignment to Learning Suite by the due date. Each assignment ends with a grading rubric showing how the points are distributed, so you can see what the TA will be looking for as you work.
 
-Since we go over the solutions together in class and self-grade the homework, late homework will not be accepted. If you have a legitimate reason for not having the homework completed before we grade it in class, you should contact 
-me to get permission for a late submission.
+Each assignment is worth 30 points, with the exception of the course evaluation assignment, which is worth 10 points.
+
+Late homework will not be accepted. If you have a legitimate reason for turning an assignment in late, contact me ahead of the due date to get permission for a late submission.
 
 ## Term Project
 There will be a term project that will involve building a complete groundwater model of a real-world site. More details about the project are provided on the [Term Project Overview page.](https://byu-ce547.readthedocs.io/en/latest/termproject/tpoverview/tp_overview/)

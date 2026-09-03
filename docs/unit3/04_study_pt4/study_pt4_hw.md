@@ -124,10 +124,25 @@ Save and run your simulation. Check the head contours and the flow budget to mak
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `study_pt4_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                    | Points |
+|-----------------------------------------------------------------------------|:------:|
+| Conceptual model created and boundary coverage in place                     |   2    |
+| River arcs digitized with stage, bottom elevation, and computed conductance |   6    |
+| Bicknell Bottoms drain polygon with correct elevation and conductance       |   4    |
+| Wells coverage imported with correct locations and pumping rates            |   3    |
+| Hydraulic conductivity zones digitized and assigned                         |   3    |
+| Recharge coverage with the base rate and all four zones                     |   5    |
+| Grid frame and 80 x 120 rotated 3D grid                                     |   2    |
+| Top and bottom elevations interpolated                                      |   3    |
+| Model runs with a converged, reasonable solution                            |   2    |

@@ -33,10 +33,21 @@ Open the files in text editor to review the contents. One contains a series of e
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `geostats_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                   | Points |
+|------------------------------------------------------------|:------:|
+| Both text files imported as 2D scatter point sets          |   6    |
+| Top elevations interpolated to the MODFLOW top array       |   7    |
+| Bottom elevations interpolated to the MODFLOW bottom array |   7    |
+| Alternate interpolation schemes tested                     |   6    |
+| Final interpolated arrays saved and reasonable             |   4    |

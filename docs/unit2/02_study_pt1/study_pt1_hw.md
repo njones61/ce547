@@ -35,10 +35,22 @@ b) changing the K values (change the global value or try setting up zones of dif
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `study_pt1_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                  | Points |
+|---------------------------------------------------------------------------|:------:|
+| Grid created with the correct dimensions and MODFLOW initialized          |   5    |
+| Global options: packages, starting heads, top and bottom elevations       |   5    |
+| Hydraulic conductivity assigned in the LPF package                        |   5    |
+| Injection and extraction wells defined at the correct locations and rates |   6    |
+| Model checker run and all errors resolved                                 |   5    |
+| Simulation saved with a converged solution and reasonable head contours   |   4    |

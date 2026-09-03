@@ -52,10 +52,22 @@ You may not use PEST to calibrate the model. This is a manual calibration exerci
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project, **including the spreadsheet.** Name your zip folder `calibration_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project, **including the spreadsheet,** and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                               | Points |
+|------------------------------------------------------------------------|:------:|
+| Observed flow assigned to the south river arc group with a 5% interval |   4    |
+| Observed flow assigned to the east river arc with a 5% interval        |   3    |
+| Observation wells imported and associated with the correct layer       |   5    |
+| Run log spreadsheet completed with parameters and errors for each run  |   6    |
+| Total error (sum of squared weighted residuals) below 100.0            |   8    |
+| Both head and flow error addressed in the calibration                  |   4    |

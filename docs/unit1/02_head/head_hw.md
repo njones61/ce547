@@ -29,10 +29,24 @@ d) Pore pressure (kN/m2) at point A.
 
 ## Submission
 
-Save your work in a file named `head_hw.xlsx` and upload it to Learning Suite.
+Upload your work to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                              | Points |
+|---------------------------------------|:------:|
+| Problem 1a: Elevation head            |   3    |
+| Problem 1b: Pressure head             |   3    |
+| Problem 1c: Total head                |   3    |
+| Problem 2a: Total head at point A     |   4    |
+| Problem 2b: Elevation head at point A |   4    |
+| Problem 2c: Pressure head at point A  |   4    |
+| Problem 2d: Pore pressure at point A  |   4    |
+| Documentation and work shown clearly  |   5    |

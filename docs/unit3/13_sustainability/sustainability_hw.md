@@ -132,10 +132,24 @@ Compare the total transitional storage required by the two cases. Why is the cas
 
 ## Submission
 
-Create a single zip archive that includes all of your simulation files (wbm_et, wbm_case1, wbm_case2) and the wbm_calcs.xlsx file. For the GMS simulations, be sure to include the MODFLOW files in the subdirectories. To be safe, zip up EVERYTHING in the folder. Name your zip folder `sustainability_hw.zip` and upload it on Learning Suite.
+Create a single zip archive that includes all of your simulation files (wbm_et, wbm_case1, wbm_case2) and the wbm_calcs.xlsx file. For the GMS simulations, be sure to include the MODFLOW files in the subdirectories. To be safe, zip up EVERYTHING in the folder. Upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                                                    | Points |
+|-------------------------------------------------------------------------------------------------------------|:------:|
+| Case 1: converted to transient with stress periods, output control, Sy, and the specified head cell removed |   6    |
+| Case 1: 30 wells placed with the correct pumping rate and the SIP solver selected                           |   5    |
+| Case 1: model runs with a reasonable solution                                                               |   3    |
+| Case 2: wells relocated and the model run                                                                   |   4    |
+| ZONEBUDGET results pasted into the zb_case1 and zb_case2 sheets                                             |   4    |
+| Storage volume formulas in G6:G25 and K6:K25                                                                |   4    |
+| Storage totals and acre-ft conversion in G28:G29 and K28:K29                                                |   2    |
+| Explanation of why the case 2 transitional storage is smaller                                               |   2    |

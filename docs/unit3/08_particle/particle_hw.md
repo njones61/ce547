@@ -30,10 +30,22 @@ You will need to unzip the files after you download them. Then do the following:
 
 ## Submission
 
-Save the GMS project with the completed solution. Put your answers to questions 2 & 4 in a Word document. Zip up all files associated with the project, **including the Word doc.** Name your zip folder `particle_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Put your answers to questions 2 & 4 in a Word document. Zip up all files associated with the project, **including the Word doc,** and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                       | Points |
+|--------------------------------------------------------------------------------|:------:|
+| Forward particle set created at the contaminated zone                          |   5    |
+| Answer: are all of the particles captured by the extraction well?              |   4    |
+| Forward tracking particle set for the injection well                           |   4    |
+| Backward tracking particle set for the extraction well                         |   4    |
+| Answer: conclusions about the pathlines for the two cases                      |   5    |
+| Pumping rates adjusted so the capture zone encompasses the plume with a margin |   8    |

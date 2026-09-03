@@ -26,11 +26,28 @@ Solve the following problems.
 b) How long would it take (in days) to pump five pore volumes of water through the sand?
 
 ## Submission
-'
-Save your work in a file named `darcy_hw.xlsx` and upload it to Learning Suite.
+
+Upload your work to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                     | Points |
+|--------------------------------------------------------------|:------:|
+| Problem 1: Travel time from point A to the river             |   3    |
+| Problem 2a: Head loss from A to C                            |   2    |
+| Problem 2b: Total head at A                                  |   2    |
+| Problem 2c: Pressure head at A                               |   2    |
+| Problem 2d: Total head at B                                  |   2    |
+| Problem 2e: Pressure head at B                               |   2    |
+| Problem 2f: Flow from low to high pressure, with explanation |   3    |
+| Problem 2g: Effect of reduced hydraulic conductivity         |   3    |
+| Problem 3a: Pore volume calculation                          |   3    |
+| Problem 3b: Time to flush five pore volumes                  |   3    |
+| Documentation and work shown clearly                         |   5    |

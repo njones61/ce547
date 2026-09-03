@@ -21,10 +21,23 @@ e. Did your changes cause the water level in the region surrounding the drains t
 
 ## Submission
 
-Make a screenshot of your grid to show that you completed part 1 and paste it into an empty Word document. Then enter your answers for part 2 (model analysis) in the document below the screenshot. Name your file `organization_hw.docx` or `organization_hw.pdf` and upload it to Learning Suite.
+Make a screenshot of your grid to show that you completed part 1 and paste it into an empty Word document. Then enter your answers for part 2 (model analysis) in the document below the screenshot. Upload the document to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                               | Points |
+|------------------------------------------------------------------------|:------:|
+| Part 1: Screenshot of the completed three-layer grid model             |   8    |
+| Problem 2a: Drain discharge from the flow budget                       |   4    |
+| Problem 2b: Conversion to acre-ft per year                             |   3    |
+| Problem 2c: Conductance producing a drain discharge of 100,000 m^3/day |   5    |
+| Problem 2d: Assessment of model sensitivity to drain conductance       |   3    |
+| Problem 2e: Water level change with explanation                        |   4    |
+| Documentation and answers presented clearly                            |   3    |

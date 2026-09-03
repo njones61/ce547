@@ -32,10 +32,21 @@ _**Note:** As you change the conductance of your GHB cells, do NOT reselect the 
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `study_pt2_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                   | Points |
+|----------------------------------------------------------------------------|:------:|
+| GHB cells assigned to all cells beneath the reservoir                      |   7    |
+| Reservoir stage of 1200 ft entered                                         |   4    |
+| Initial conductance computed from the sediment K, thickness, and cell area |   6    |
+| Model saved and run successfully                                           |   4    |
+| Conductance adjusted until reservoir seepage is about 5000 ft^3/day        |   9    |

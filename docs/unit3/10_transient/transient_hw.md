@@ -43,10 +43,23 @@ You will need to unzip the first file after you download it. Then load the proje
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project. Name your zip folder `simulations_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                           | Points |
+|------------------------------------------------------------------------------------|:------:|
+| Model type changed to transient with the output control options turned off         |   3    |
+| Stress periods entered from the spreadsheet with the first period set to transient |   5    |
+| Steady state heads copied to the Starting Heads array                              |   4    |
+| Specific yield of 0.23 assigned in the K coverage                                  |   3    |
+| Pumping schedules entered for the three wells as step functions                    |   6    |
+| Transient recharge and lake stage entered as continuous series                     |   5    |
+| Conceptual model mapped to the grid and the transient solution is reasonable       |   4    |

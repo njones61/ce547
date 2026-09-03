@@ -34,10 +34,22 @@ Create a Word document named results.doc to discuss your results for items 5-6.
 
 ## Submission
 
-Save the GMS project with the completed solution. Zip up all files associated with the project, **including the Word document.** Name your zip folder `parameter_hw.zip` and upload it to Learning Suite.
+Save the GMS project with the completed solution. Zip up all files associated with the project, **including the Word document,** and upload the zip file to Learning Suite.
 
 !!! note "Do not put your name or NetID in the file"
     Learning Suite records who submitted each file, so your name is not needed
-    inside the file itself. Leaving it out means your work can be graded
-    anonymously, which keeps grading fair. This applies to scans and photos
-    too — please don't write your name on the page.
+    inside the file itself. This applies to scans and photos too — please
+    don't write your name on the page.
+
+## Grading Rubric
+
+**Total: 30 points**
+
+| Criteria                                                                        | Points |
+|---------------------------------------------------------------------------------|:------:|
+| Run option set to parameter estimation mode                                     |   3    |
+| Key values entered for the three parameters and mapped to the grid              |   6    |
+| Parameters dialog set up with starting values, Solve toggles, and log transform |   6    |
+| Model run and PEST solution read in successfully                                |   5    |
+| Discussion comparing the PEST solution to the manual calibration                |   5    |
+| Eigenvalue ratio from the *.MTT file with a discussion of uniqueness            |   5    |
