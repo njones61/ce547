@@ -18,9 +18,11 @@ The [Woburn Hydrogeology Data](https://woburn.readthedocs.io/en/latest/){target=
 
 ## Teams
 
-The teams will be divided as shown in the following table. The group ids are shown in parentheses.
+The teams will be divided as shown in the following link. 
 
-![ce547_teams.png](ce547_teams.png)
+ [Term Project Signup Sheet](https://docs.google.com/spreadsheets/d/1B66dxxI4TuI7LNfwRovbrjDkFC-i7-4FP1ZDVs43EZg/edit?usp=sharing){target='blank'}
+
+Please sign up right away. There will be 2 teams of 3 students and 2 teams of 2 students for each of the four groups. If you have a preference for which group you would like to be in, please indicate that on the signup sheet. I will try to accommodate your preferences as best I can.
 
 In terms of team management, I expect you to do the following:
 
